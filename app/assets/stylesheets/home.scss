@@ -1,0 +1,44 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*  Content */
+.thb-autotype .thb-autotype-entry {
+  display: inline-block;
+  font-weight: 600;
+  color: #ea5b11 !important;
+  will-change: contents;
+}
+.slick-dots li.slick-active {
+  background-size: 100% !important;
+  background: -moz-linear-gradient(305deg,#f0710c,#ea5b11,#d3073c) !important;
+  background: -webkit-linear-gradient(305deg,#f0710c,#ea5b11,#d3073c) !important;
+  background: linear-gradient(165deg,#f0710c,#ea5b11,#d3073c) !important;
+}
+
+.thb-iconbox.top.type1 {
+  align-items: center;
+  text-align: left !important;
+}
+.thb-iconbox.top.type1 ul>li {
+  position: relative;
+  list-style: none;
+}
+
+.thb-team-row .thb-team-member .team-information {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  height: 100%;
+  opacity: 0;
+  padding: 30px;
+  background: -moz-linear-gradient(305deg,rgba(240, 113, 12, 0.8),rgba(234, 91, 17, 0.8),rgba(211, 7, 60, 0.8)) !important;
+  background: -webkit-linear-gradient(305deg,rgba(240, 113, 12, 0.8),rgba(234, 91, 17, 0.8),rgba(211, 7, 60, 0.8)) !important;
+  background: linear-gradient(165deg,rgba(240, 113, 12, 0.8),rgba(234, 91, 17, 0.8),rgba(211, 7, 60, 0.8)) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff;
+  will-change: opacity;
+}
