@@ -15349,3 +15349,709 @@ Processing by PortfolioController#nyt_well as HTML
 Completed 200 OK in 674ms (Views: 657.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-12-19 09:48:33 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (1392.5ms)
+  Rendered home/index.html.erb within layouts/application (1443.7ms)
+  Rendered layouts/shared/_header.html.erb (5.4ms)
+  Rendered layouts/shared/_footer.html.erb (3.3ms)
+Completed 200 OK in 2483ms (Views: 2429.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 09:48:59 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (5.3ms)
+  Rendered home/index.html.erb within layouts/application (30.6ms)
+  Rendered layouts/shared/_header.html.erb (6.8ms)
+  Rendered layouts/shared/_footer.html.erb (4.9ms)
+Completed 200 OK in 237ms (Views: 217.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio" for ::1 at 2016-12-19 10:28:40 +0100
+Processing by PortfolioController#index as HTML
+  Rendering portfolio/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (87.4ms)
+  Rendered portfolio/index.html.erb within layouts/application (120.5ms)
+  Rendered layouts/shared/_header.html.erb (16.8ms)
+  Rendered layouts/shared/_footer.html.erb (11.7ms)
+Completed 200 OK in 768ms (Views: 703.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 10:30:52 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (83.4ms)
+  Rendered home/index.html.erb within layouts/application (100.6ms)
+  Rendered layouts/shared/_header.html.erb (41.2ms)
+  Rendered layouts/shared/_footer.html.erb (4.8ms)
+Completed 200 OK in 667ms (Views: 648.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 10:32:12 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (7.7ms)
+  Rendered home/about_us.html.erb within layouts/application (56.9ms)
+  Rendered layouts/shared/_header.html.erb (5.0ms)
+  Rendered layouts/shared/_footer.html.erb (2.7ms)
+Completed 200 OK in 228ms (Views: 154.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 10:32:44 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/shared/_header.html.erb (17.1ms)
+  Rendered layouts/shared/_footer.html.erb (3.3ms)
+Completed 200 OK in 109ms (Views: 106.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 10:35:09 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (66.6ms)
+  Rendered home/index.html.erb within layouts/application (83.4ms)
+Completed 500 Internal Server Error in 1909ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...in-width: 75em)": expected "{", was "h1, .h1 {"):
+    142: 
+    143:     <%= csrf_meta_tags %>
+    144: 
+    145:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    146:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    147:     <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+    148:   </head>
+  
+app/assets/stylesheets/home.scss:48
+app/views/layouts/application.html.erb:145:in `_app_views_layouts_application_html_erb__1019743706517557345_70182362455100'
+  Rendering /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (18.4ms)
+  Rendering /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (201.0ms)
+Started GET "/" for ::1 at 2016-12-19 10:35:38 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (3.7ms)
+  Rendered home/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...in-width: 75em)": expected "{", was "h1,.h1 {"):
+    142: 
+    143:     <%= csrf_meta_tags %>
+    144: 
+    145:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    146:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    147:     <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+    148:   </head>
+  
+app/assets/stylesheets/home.scss:48
+app/views/layouts/application.html.erb:145:in `_app_views_layouts_application_html_erb__1019743706517557345_70182397321600'
+  Rendering /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (13.1ms)
+  Rendering /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/JoeBhent/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (283.7ms)
+Started GET "/" for ::1 at 2016-12-19 10:36:59 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (16.1ms)
+  Rendered home/index.html.erb within layouts/application (25.1ms)
+  Rendered layouts/shared/_header.html.erb (17.2ms)
+  Rendered layouts/shared/_footer.html.erb (11.6ms)
+Completed 200 OK in 716ms (Views: 704.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 10:40:44 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (32.0ms)
+  Rendered home/index.html.erb within layouts/application (49.1ms)
+  Rendered layouts/shared/_header.html.erb (18.7ms)
+  Rendered layouts/shared/_footer.html.erb (20.1ms)
+Completed 200 OK in 1108ms (Views: 1105.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 10:42:07 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (3.0ms)
+  Rendered home/index.html.erb within layouts/application (6.7ms)
+  Rendered layouts/shared/_header.html.erb (4.6ms)
+  Rendered layouts/shared/_footer.html.erb (2.3ms)
+Completed 200 OK in 81ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 10:43:02 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (3.1ms)
+  Rendered home/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/shared/_header.html.erb (20.5ms)
+  Rendered layouts/shared/_footer.html.erb (12.5ms)
+Completed 200 OK in 822ms (Views: 820.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 10:47:19 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (66.9ms)
+  Rendered home/index.html.erb within layouts/application (75.6ms)
+  Rendered layouts/shared/_header.html.erb (15.7ms)
+  Rendered layouts/shared/_footer.html.erb (3.3ms)
+Completed 200 OK in 608ms (Views: 604.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 11:00:29 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (99.0ms)
+  Rendered home/index.html.erb within layouts/application (267.5ms)
+  Rendered layouts/shared/_header.html.erb (16.5ms)
+  Rendered layouts/shared/_footer.html.erb (17.5ms)
+Completed 200 OK in 1055ms (Views: 1044.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 11:01:14 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (66.3ms)
+  Rendered home/index.html.erb within layouts/application (83.4ms)
+  Rendered layouts/shared/_header.html.erb (24.6ms)
+  Rendered layouts/shared/_footer.html.erb (11.5ms)
+Completed 200 OK in 565ms (Views: 561.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 11:12:47 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (86.2ms)
+  Rendered home/index.html.erb within layouts/application (165.1ms)
+  Rendered layouts/shared/_header.html.erb (33.4ms)
+  Rendered layouts/shared/_footer.html.erb (36.7ms)
+Completed 200 OK in 832ms (Views: 813.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:12:54 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (3.4ms)
+  Rendered home/about_us.html.erb within layouts/application (39.2ms)
+  Rendered layouts/shared/_header.html.erb (5.5ms)
+  Rendered layouts/shared/_footer.html.erb (3.1ms)
+Completed 200 OK in 195ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-19 11:13:59 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (66.6ms)
+  Rendered home/index.html.erb within layouts/application (117.4ms)
+  Rendered layouts/shared/_header.html.erb (20.8ms)
+  Rendered layouts/shared/_footer.html.erb (20.2ms)
+Completed 200 OK in 684ms (Views: 679.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:15:30 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (75.2ms)
+  Rendered home/about_us.html.erb within layouts/application (147.4ms)
+  Rendered layouts/shared/_header.html.erb (4.1ms)
+  Rendered layouts/shared/_footer.html.erb (11.7ms)
+Completed 200 OK in 600ms (Views: 597.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:16:13 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (68.2ms)
+  Rendered home/about_us.html.erb within layouts/application (122.7ms)
+  Rendered layouts/shared/_header.html.erb (3.5ms)
+  Rendered layouts/shared/_footer.html.erb (3.5ms)
+Completed 200 OK in 558ms (Views: 555.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:17:40 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (75.9ms)
+  Rendered home/about_us.html.erb within layouts/application (147.2ms)
+  Rendered layouts/shared/_header.html.erb (5.6ms)
+  Rendered layouts/shared/_footer.html.erb (11.7ms)
+Completed 200 OK in 642ms (Views: 621.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:26:14 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (83.5ms)
+  Rendered home/about_us.html.erb within layouts/application (129.5ms)
+  Rendered layouts/shared/_header.html.erb (8.2ms)
+  Rendered layouts/shared/_footer.html.erb (37.6ms)
+Completed 200 OK in 656ms (Views: 645.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:27:52 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (66.5ms)
+  Rendered home/about_us.html.erb within layouts/application (114.2ms)
+  Rendered layouts/shared/_header.html.erb (20.7ms)
+  Rendered layouts/shared/_footer.html.erb (11.9ms)
+Completed 200 OK in 691ms (Views: 657.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:29:42 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (68.5ms)
+  Rendered home/about_us.html.erb within layouts/application (123.9ms)
+  Rendered layouts/shared/_header.html.erb (4.1ms)
+  Rendered layouts/shared/_footer.html.erb (28.8ms)
+Completed 200 OK in 617ms (Views: 614.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:30:40 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (66.5ms)
+  Rendered home/about_us.html.erb within layouts/application (130.3ms)
+  Rendered layouts/shared/_header.html.erb (4.1ms)
+  Rendered layouts/shared/_footer.html.erb (11.8ms)
+Completed 200 OK in 630ms (Views: 626.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:32:20 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (67.3ms)
+  Rendered home/about_us.html.erb within layouts/application (105.7ms)
+  Rendered layouts/shared/_header.html.erb (4.2ms)
+  Rendered layouts/shared/_footer.html.erb (28.2ms)
+Completed 200 OK in 808ms (Views: 804.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:32:56 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (127.0ms)
+  Rendered home/about_us.html.erb within layouts/application (192.7ms)
+  Rendered layouts/shared/_header.html.erb (7.1ms)
+  Rendered layouts/shared/_footer.html.erb (20.0ms)
+Completed 200 OK in 826ms (Views: 816.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:34:02 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (67.8ms)
+  Rendered home/about_us.html.erb within layouts/application (114.4ms)
+  Rendered layouts/shared/_header.html.erb (3.9ms)
+  Rendered layouts/shared/_footer.html.erb (11.7ms)
+Completed 200 OK in 690ms (Views: 687.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:34:18 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (16.4ms)
+  Rendered home/about_us.html.erb within layouts/application (56.1ms)
+  Rendered layouts/shared/_header.html.erb (3.6ms)
+  Rendered layouts/shared/_footer.html.erb (3.0ms)
+Completed 200 OK in 285ms (Views: 282.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:34:44 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (2.9ms)
+  Rendered home/about_us.html.erb within layouts/application (9.7ms)
+  Rendered layouts/shared/_header.html.erb (3.5ms)
+  Rendered layouts/shared/_footer.html.erb (2.3ms)
+Completed 200 OK in 75ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:35:02 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (2.8ms)
+  Rendered home/about_us.html.erb within layouts/application (9.5ms)
+  Rendered layouts/shared/_header.html.erb (4.7ms)
+  Rendered layouts/shared/_footer.html.erb (2.3ms)
+Completed 200 OK in 75ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:36:11 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (67.9ms)
+  Rendered home/about_us.html.erb within layouts/application (153.9ms)
+  Rendered layouts/shared/_header.html.erb (5.5ms)
+  Rendered layouts/shared/_footer.html.erb (11.0ms)
+Completed 200 OK in 656ms (Views: 651.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:36:33 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (7.6ms)
+  Rendered home/about_us.html.erb within layouts/application (99.2ms)
+  Rendered layouts/shared/_header.html.erb (3.8ms)
+  Rendered layouts/shared/_footer.html.erb (2.5ms)
+Completed 200 OK in 177ms (Views: 173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:37:53 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (68.3ms)
+  Rendered home/about_us.html.erb within layouts/application (122.2ms)
+  Rendered layouts/shared/_header.html.erb (3.4ms)
+  Rendered layouts/shared/_footer.html.erb (4.0ms)
+Completed 200 OK in 667ms (Views: 664.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:38:11 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (16.2ms)
+  Rendered home/about_us.html.erb within layouts/application (72.7ms)
+  Rendered layouts/shared/_header.html.erb (4.1ms)
+  Rendered layouts/shared/_footer.html.erb (3.7ms)
+Completed 200 OK in 341ms (Views: 337.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:40:47 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (76.0ms)
+  Rendered home/about_us.html.erb within layouts/application (130.5ms)
+  Rendered layouts/shared/_header.html.erb (13.8ms)
+  Rendered layouts/shared/_footer.html.erb (28.7ms)
+Completed 200 OK in 705ms (Views: 693.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:41:24 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (16.0ms)
+  Rendered home/about_us.html.erb within layouts/application (106.6ms)
+  Rendered layouts/shared/_header.html.erb (3.6ms)
+  Rendered layouts/shared/_footer.html.erb (12.3ms)
+Completed 200 OK in 450ms (Views: 446.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:41:44 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (16.4ms)
+  Rendered home/about_us.html.erb within layouts/application (55.6ms)
+  Rendered layouts/shared/_header.html.erb (3.5ms)
+  Rendered layouts/shared/_footer.html.erb (11.6ms)
+Completed 200 OK in 323ms (Views: 320.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:44:28 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (75.0ms)
+  Rendered home/about_us.html.erb within layouts/application (129.3ms)
+  Rendered layouts/shared/_header.html.erb (6.0ms)
+  Rendered layouts/shared/_footer.html.erb (12.3ms)
+Completed 200 OK in 678ms (Views: 659.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:47:18 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (75.3ms)
+  Rendered home/about_us.html.erb within layouts/application (147.6ms)
+  Rendered layouts/shared/_header.html.erb (4.3ms)
+  Rendered layouts/shared/_footer.html.erb (12.7ms)
+Completed 200 OK in 632ms (Views: 627.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:48:09 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (68.8ms)
+  Rendered home/about_us.html.erb within layouts/application (122.4ms)
+  Rendered layouts/shared/_header.html.erb (5.3ms)
+  Rendered layouts/shared/_footer.html.erb (28.7ms)
+Completed 200 OK in 642ms (Views: 638.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:48:15 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (6.4ms)
+  Rendered home/about_us.html.erb within layouts/application (31.5ms)
+  Rendered layouts/shared/_header.html.erb (4.0ms)
+  Rendered layouts/shared/_footer.html.erb (11.4ms)
+Completed 200 OK in 533ms (Views: 530.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:49:07 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (66.4ms)
+  Rendered home/about_us.html.erb within layouts/application (122.5ms)
+  Rendered layouts/shared/_header.html.erb (3.7ms)
+  Rendered layouts/shared/_footer.html.erb (5.8ms)
+Completed 200 OK in 677ms (Views: 674.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:49:34 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (15.2ms)
+  Rendered home/about_us.html.erb within layouts/application (51.7ms)
+  Rendered layouts/shared/_header.html.erb (3.6ms)
+  Rendered layouts/shared/_footer.html.erb (2.9ms)
+Completed 200 OK in 299ms (Views: 295.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:49:43 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (4.7ms)
+  Rendered home/about_us.html.erb within layouts/application (13.8ms)
+  Rendered layouts/shared/_header.html.erb (3.4ms)
+  Rendered layouts/shared/_footer.html.erb (2.3ms)
+Completed 200 OK in 84ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:49:56 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (15.3ms)
+  Rendered home/about_us.html.erb within layouts/application (47.7ms)
+  Rendered layouts/shared/_header.html.erb (3.7ms)
+  Rendered layouts/shared/_footer.html.erb (4.9ms)
+Completed 200 OK in 359ms (Views: 356.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:50:21 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (59.0ms)
+  Rendered home/about_us.html.erb within layouts/application (105.8ms)
+  Rendered layouts/shared/_header.html.erb (3.4ms)
+  Rendered layouts/shared/_footer.html.erb (3.2ms)
+Completed 200 OK in 780ms (Views: 777.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:50:29 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (3.0ms)
+  Rendered home/about_us.html.erb within layouts/application (10.2ms)
+  Rendered layouts/shared/_header.html.erb (4.4ms)
+  Rendered layouts/shared/_footer.html.erb (2.5ms)
+Completed 200 OK in 79ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:51:13 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (89.0ms)
+  Rendered home/about_us.html.erb within layouts/application (155.6ms)
+  Rendered layouts/shared/_header.html.erb (3.5ms)
+  Rendered layouts/shared/_footer.html.erb (2.8ms)
+Completed 200 OK in 607ms (Views: 603.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:55:33 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (110.2ms)
+  Rendered home/about_us.html.erb within layouts/application (163.8ms)
+  Rendered layouts/shared/_header.html.erb (8.2ms)
+  Rendered layouts/shared/_footer.html.erb (12.2ms)
+Completed 200 OK in 1140ms (Views: 1131.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:56:00 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (16.4ms)
+  Rendered home/about_us.html.erb within layouts/application (64.1ms)
+  Rendered layouts/shared/_header.html.erb (4.1ms)
+  Rendered layouts/shared/_footer.html.erb (4.0ms)
+Completed 200 OK in 317ms (Views: 313.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:56:11 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (17.1ms)
+  Rendered home/about_us.html.erb within layouts/application (64.1ms)
+  Rendered layouts/shared/_header.html.erb (4.7ms)
+  Rendered layouts/shared/_footer.html.erb (3.5ms)
+Completed 200 OK in 385ms (Views: 382.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 11:56:45 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (59.3ms)
+  Rendered home/about_us.html.erb within layouts/application (106.1ms)
+  Rendered layouts/shared/_header.html.erb (4.3ms)
+  Rendered layouts/shared/_footer.html.erb (3.5ms)
+Completed 200 OK in 466ms (Views: 462.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:01:36 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (33.6ms)
+  Rendered home/about_us.html.erb within layouts/application (96.8ms)
+  Rendered layouts/shared/_header.html.erb (4.4ms)
+  Rendered layouts/shared/_footer.html.erb (2.6ms)
+Completed 200 OK in 610ms (Views: 583.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:02:18 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (16.4ms)
+  Rendered home/about_us.html.erb within layouts/application (55.4ms)
+  Rendered layouts/shared/_header.html.erb (3.7ms)
+  Rendered layouts/shared/_footer.html.erb (3.9ms)
+Completed 200 OK in 389ms (Views: 385.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:02:36 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (15.5ms)
+  Rendered home/about_us.html.erb within layouts/application (80.3ms)
+  Rendered layouts/shared/_header.html.erb (3.9ms)
+  Rendered layouts/shared/_footer.html.erb (3.5ms)
+Completed 200 OK in 598ms (Views: 595.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:05:30 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (72.0ms)
+  Rendered home/about_us.html.erb within layouts/application (128.0ms)
+  Rendered layouts/shared/_header.html.erb (11.5ms)
+  Rendered layouts/shared/_footer.html.erb (19.9ms)
+Completed 200 OK in 696ms (Views: 688.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:10:49 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (75.1ms)
+  Rendered home/about_us.html.erb within layouts/application (156.1ms)
+  Rendered layouts/shared/_header.html.erb (4.7ms)
+  Rendered layouts/shared/_footer.html.erb (11.8ms)
+Completed 200 OK in 949ms (Views: 931.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:37:34 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (116.5ms)
+  Rendered home/about_us.html.erb within layouts/application (1969.9ms)
+  Rendered layouts/shared/_header.html.erb (37.7ms)
+  Rendered layouts/shared/_footer.html.erb (3.9ms)
+Completed 200 OK in 2475ms (Views: 2401.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:42:01 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (122.6ms)
+  Rendered home/about_us.html.erb within layouts/application (1350.7ms)
+  Rendered layouts/shared/_header.html.erb (34.4ms)
+  Rendered layouts/shared/_footer.html.erb (15.1ms)
+Completed 200 OK in 1857ms (Views: 1845.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:53:51 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (92.4ms)
+  Rendered home/about_us.html.erb within layouts/application (174.9ms)
+  Rendered layouts/shared/_header.html.erb (274.3ms)
+  Rendered layouts/shared/_footer.html.erb (96.9ms)
+Completed 200 OK in 1675ms (Views: 1663.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:55:53 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (74.8ms)
+  Rendered home/about_us.html.erb within layouts/application (132.3ms)
+  Rendered layouts/shared/_header.html.erb (17.1ms)
+  Rendered layouts/shared/_footer.html.erb (13.3ms)
+Completed 200 OK in 724ms (Views: 721.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:57:26 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (100.1ms)
+  Rendered home/about_us.html.erb within layouts/application (274.2ms)
+  Rendered layouts/shared/_header.html.erb (38.3ms)
+  Rendered layouts/shared/_footer.html.erb (87.0ms)
+Completed 200 OK in 1535ms (Views: 1524.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 12:59:54 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (75.5ms)
+  Rendered home/about_us.html.erb within layouts/application (158.1ms)
+  Rendered layouts/shared/_header.html.erb (43.2ms)
+  Rendered layouts/shared/_footer.html.erb (5.6ms)
+Completed 200 OK in 998ms (Views: 985.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 13:02:27 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (75.8ms)
+  Rendered home/about_us.html.erb within layouts/application (194.5ms)
+  Rendered layouts/shared/_header.html.erb (19.7ms)
+  Rendered layouts/shared/_footer.html.erb (6.4ms)
+Completed 200 OK in 958ms (Views: 954.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 13:04:45 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (107.9ms)
+  Rendered home/about_us.html.erb within layouts/application (203.4ms)
+  Rendered layouts/shared/_header.html.erb (17.5ms)
+  Rendered layouts/shared/_footer.html.erb (19.3ms)
+Completed 200 OK in 918ms (Views: 864.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-us-agency" for ::1 at 2016-12-19 13:06:12 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (67.0ms)
+  Rendered home/about_us.html.erb within layouts/application (137.6ms)
+  Rendered layouts/shared/_header.html.erb (42.1ms)
+  Rendered layouts/shared/_footer.html.erb (4.4ms)
+Completed 200 OK in 753ms (Views: 749.5ms | ActiveRecord: 0.0ms)
+
+

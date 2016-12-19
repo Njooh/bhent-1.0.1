@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$bhent_black_font: 'BhentDisplay-Black';
+
 /*  Content */
 .thb-autotype .thb-autotype-entry {
   display: inline-block;
@@ -41,4 +43,8 @@
   justify-content: flex-end;
   color: #fff;
   will-change: opacity;
+}
+
+h1.title-header {
+  font-size: 42px;
 }
