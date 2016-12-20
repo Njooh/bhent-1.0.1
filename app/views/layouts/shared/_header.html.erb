@@ -13,42 +13,51 @@
     <div>
       <div class="mobile-menu-top">
         <div class="thb-language-switcher" id="thb_language_selector">
-          <a href="index.html" class="active" title="Français">Français (France)</a>
-          <a href="index.html"  title="English">English (US)</a>
+
+          
+          <% if cookies[:bhent_locale].include?("en") %>
+            <%= link_to t('menu.languages.fr'), change_locale_path(:fr)%>
+            <%= link_to t('menu.languages.en'), change_locale_path(:en), class: 'active'  %>
+          <%else%>
+            <%= link_to t('menu.languages.fr'), change_locale_path(:fr), class: 'active' %>
+            <%= link_to t('menu.languages.en'), change_locale_path(:en) %>
+          <%end%>
+
+
         </div>
         <ul id="menu-navigation" class="thb-mobile-menu">
           <li id="menu-item-287" class=" menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-282 current_page_item menu-item-287">
             <div class="link_container">
               <div class="link_inner">
-                <%= link_to 'Home', root_path, :data => {:content => "Home", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>
+                <%= link_to t('menu.item.home'), root_path, :data => {:content => "Home", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>
               </div>
             </div>
           </li>
           <li id="menu-item-300" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-300">
             <div class="link_container">
               <div class="link_inner">
-                <%= link_to 'Portfolio', portfolio_path, :data => {:content => "Portfolio", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>
+                <%= link_to t('menu.item.portfolio'), portfolio_path, :data => {:content => "Portfolio", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>
               </div>
             </div>
           </li>
           <li id="menu-item-30" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-30">
             <div class="link_container">
               <div class="link_inner">
-                <%= link_to 'Blog', blog_path, :data => {:content => "Blog", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>
+                <%= link_to t('menu.item.blog'), blog_path, :data => {:content => "Blog", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>
               </div>
             </div>
           </li>
           <li id="menu-item-204" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-204">
             <div class="link_container">
               <div class="link_inner">
-                <%= link_to 'About Us', about_us_agency_path, :data => {:content => "About Us", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>
+                <%= link_to t('menu.item.about'), about_us_agency_path, :data => {:content => "About Us", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>
               </div>
             </div>
           </li>
           <li id="menu-item-288" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-288">
             <div class="link_container">
               <div class="link_inner">
-                <%= link_to 'Contact Us', contact_us_path, :data => {:content => "Contact", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>
+                <%= link_to t('menu.item.contact'), contact_us_path, :data => {:content => "Contact", :menubg => image_path('thumb_IMG_0018_1024.jpg')} %>
               </div>
             </div>
           </li>

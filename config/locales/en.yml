@@ -20,4 +20,84 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts:
+    title:      "Bhent Branding Agency - Awesome, powerful and creative"
+    shared:
+      footer:
+        address:    "Our Address"
+        intouch:     "Get in touch"
+        navigate:     "navigate"
+        follow:       "Follow Us"
+  home:
+    index:
+      welcome:      "Welcome to Bhent"
+      stable:     "We are an awesome branding"
+      stable2:     "agency creating"
+      artworks:     "artworks"
+      concepts:     "concepts"
+      dreams:       "dreams"
+      interiors:  "interiors"
+      what_we_do:   "What we do"
+      topography1:    "Typography is the origin of language and of"
+      human:          "human"
+      topography2:    "communication. Moreover typography is the"
+      fundamental:     "fundament"
+      topography3:    "of our culture, of ourselves. Only through language, we as the human race could evolve."
+      brand_strategy:    "Brand Strategy"
+      brand_analysis:     "Brand Analysis"
+      brand_platform:   "Brand Platform"
+      brand_communi_idea:          "Brand Communication Idea"
+      brand_digital_s:             "Brand Digital Strategy"
+      brand_identity:     "Brand Identity & Image"
+      brand_naming:       "Naming"
+      brand_logo:         "Logo"
+      brand_book:         "Brandbook"
+      key_visuals:        "Key visuals"
+      brand_digital_e:    "Brand Digital Expression"
+      brand_website:       "Website"
+      brand_mobile_app:     "Mobile Apps"
+      brand_social:         "Social Media"
+      brand_content:        "Content"
+      brand_physical_e:   "Brand Physical Expression"
+      brand_packaging:      "Packaging"
+      brand_retail:         "Retail"
+      brand_publishing:     "Publishing"
+      brand_promotion:      "Promotion"
+
+
+
+  activerecord:
+    attributes:
+      contact:
+        name:         "Name"
+        email:        "Email"
+        content:      "Content"
+
+
+  menu:
+    item:
+      home:       "Home"
+      portfolio:   "Portfolio"
+      blog:         "Blog"
+      about:        "About Us"
+      contact:        "Contact Us"
+    languages:
+      fr:         "French (France)"
+      en:         "English (US)"
+  contact:
+    header:         "Contact Us"
+    sub:
+      header:         "Let us know what you have in mind, and we’ll get back to you in an instant!"
+    form:
+      name:         "Your Name"
+      email:         "Your E-mail"
+      message:        "Your Message"
+      send:           "Send Message"
+    message:
+      success:        "message sent!"
+
+
+
+    
+
+

@@ -2,6 +2,7 @@ class BlogController < ApplicationController
   def index
   end
 
-  def article_1
+  def show
+  	
   end
 end

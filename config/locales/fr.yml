@@ -1,0 +1,100 @@
+fr:
+  layouts:
+    title:      "Bhent Branding Agency - Impressionnant, puissant et créatif"
+    shared:
+      footer:
+        address:        "Notre adresse"
+        intouch:        "Entrer en contact"
+        navigate:       "Naviguer"
+        follow:         "Suivez-nous"
+  home:
+    index:
+      welcome:    "Bienvenue à Bhent"
+      stable:     "Nous sommes une marque impressionnante" 
+      stable2:     "création d'agence"
+      artworks:     "oeuvres d'art"
+      concepts:     "concepts"
+      interiors:  "intérieurs"
+      dreams:     "rêves"
+      what_we_do:     "Ce que nous faisons"
+      topography1:    "La typographie est l'origine du langage et de"
+      human:    "humain"
+      topography2:    "la communication. La typographie est"
+      fundamental:  "fondement"
+      topography3:      "de notre culture, de nous-mêmes. Ce n'est que par le langage que nous pourrions évoluer en tant que race humaine."
+      brand_strategy:    "Stratégie de marque"
+      brand_analysis:     "Analyse de la marque"
+      brand_platform:   "Plate-forme de marque"
+      brand_communi_idea:          "Idée de communication de marque"
+      brand_digital_s:             "Stratégie numérique de marque"
+      brand_identity:     "Identité et image de marque"
+      brand_naming:       "Appellation"
+      brand_logo:         "Logo"
+      brand_book:         "Livre de la marque"
+      key_visuals:        "Visuels clés"
+      brand_digital_e:    "Expression numérique de marque"
+      brand_website:       "Site Internet"
+      brand_mobile_app:     "Application mobile"
+      brand_social:         "Média sociaux"
+      brand_content:        "Contenu"
+      brand_physical_e:   "Expression physique de la marque"
+      brand_packaging:      "Emballage"
+      brand_retail:         "Vente au détail"
+      brand_publishing:     "Édition"
+      brand_promotion:      "Promotion"
+
+
+  menu:
+    item:
+      home:       "Accueil"
+      portfolio:   "Portfolio"
+      blog:         "Blog"
+      about:        "À propos de nous"
+      contact:        "Contactez nous"
+    languages:
+      fr:         "Français (France)"
+      en:         "Anglais (Etats-Unis)"
+
+
+  contacts:
+    index:
+      count:
+        one:        "%{count} message"
+        other:      "%{count} des messages"
+  contact:
+    header:           "Contactez nous"
+    sub:
+      header:       "Faites-nous savoir ce que vous avez à l'esprit, et nous vous répondrons dans un instant!"
+    form:
+      name:         "Votre nom"
+      email:         "Votre E-mail"
+      message:        "Votre message"
+      send:           "Envoyer le message"
+    message:
+      success:        "message envoyé!"
+
+
+  activerecord:
+    errors:
+      messages:
+        inclusion:  "n'est pas inclus dans la liste"
+        blank:      "ne peut pas être vide"
+  errors:
+    template:
+      body:           "Il y a des problèmes dans les domaines suivants cos:"
+      header:
+        one:          "1 erreur interdit d'envoyer ce %{model}"
+        other:        "%{count} erreur interdite d'être envoyé ce %{model} " 
+
+
+  activerecord:
+    models:
+      contact:      "Contact"
+    attributes:
+      contact:
+        name:       "Nom"
+        email:      "Email"
+        content:    "Contenu"
+   
+
+    

@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="small-12 medium-6 large-3 columns">
-        <div id="text-2" class="widget cf widget_text"><h6>Our Address</h6>
+        <div id="text-2" class="widget cf widget_text"><h6><%=t('layouts.shared.footer.address') %></h6>
           <div class="textwidget">
             <p>
               N2 Street - Odza (Mbog-Abang).<br/>
@@ -22,7 +22,7 @@
       </div>
       <div class="small-12 medium-6 large-3 columns">
         <div id="nav_menu-2" class="widget cf widget_nav_menu">
-          <h6>Get in Touch</h6>
+          <h6><%= t('layouts.shared.footer.intouch') %> </h6>
           <div class="menu-secondary-container">
             <address>
               <strong>M.</strong>
@@ -30,7 +30,7 @@
               <strong>E.</strong>
               <a href="mailto:hello@bhent.xyz">hello@bhent.xyz</a>
             </address>
-            <h6>Follow Us</h6>
+            <h6><%= t('layouts.shared.footer.follow')%></h6>
             <ul id="menu-secondary-1" class="menu">
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a target="_blank" href="https://www.facebook.com/FuelThemes/">Facebook</a></li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a target="_blank" href="#">Twitter</a></li>
@@ -44,22 +44,22 @@
       </div>
       <div class="small-12 medium-6 large-3 columns">
         <div id="text-3" class="widget cf widget_text">
-          <h6>Navigate</h6>
+          <h6><%= t('layouts.shared.footer.navigate') %> </h6>
           <ul id="menu-secondary-1" class="menu">
             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32">
-              <%= link_to 'Home', root_path %>
+              <%= link_to t('menu.item.home'), root_path %>
             </li>
             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33">
-              <%= link_to 'Portfolio', portfolio_path %>
+              <%= link_to t('menu.item.portfolio'), portfolio_path %>
             </li>
             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34">
-              <%= link_to 'BLog', blog_path %>
+              <%= link_to t('menu.item.blog'), blog_path %>
             </li>
             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35">
-              <%= link_to 'About Us', about_us_agency_path %>
+              <%= link_to t('menu.item.about'), about_us_agency_path %>
             </li>
             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36">
-              <%= link_to 'Contact Us', contact_us_path %>
+              <%= link_to t('menu.item.contact'), contact_us_path %>
             </li>
           </ul>
           <h6>Copyright</h6>

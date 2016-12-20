@@ -51,47 +51,21 @@
             <div class="wpb_wrapper">
               <div class="wpb_text_column wpb_content_element   vc_custom_1475053514797">
                 <div class="wpb_wrapper">
-                  <h6>Contact Us</h6>
-                  <h3><strong>Let us know what you have in mind, and we&#8217;ll get back to you in an instant!</strong></h3>
+                <h6><%= t('contact.header')%> </h6>
+                  <h3><strong><%=t('contact.sub.header') %></strong></h3>
                 </div>
               </div>
+                <% flash.each do |message_type, message| %>
+
+                      <div class="<%=message_type %>" style="text-align: center">
+                        <!--<button class="close-button" data-close>&times;</button>-->
+                        <p><%= t('contact.message.success') %>.</p>
+                      </div>
+
+                <% end %>
               <div role="form" class="wpcf7" id="wpcf7-f220-p285-o1" lang="en-US" dir="ltr">
                 <div class="screen-reader-response"></div>
-                <form action="http://werkstatt.fuelthemes.net/werkstatt-agency-simple/contact-us-2/#wpcf7-f220-p285-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-                  <div style="display: none;">
-                    <input type="hidden" name="_wpcf7" value="220" />
-                    <input type="hidden" name="_wpcf7_version" value="4.5.1" />
-                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f220-p285-o1" />
-                    <input type="hidden" name="_wpnonce" value="a4d8bb537a" />
-                  </div>
-                  <div class="row">
-                    <div class="small-12 large-6 columns">
-                      <label>Your Name</label>
-                      <span class="wpcf7-form-control-wrap your-firstname">
-                        <input type="text" name="your-firstname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" aria-required="true" aria-invalid="false" />
-                      </span>
-                    </div>
-                    <div class="small-12 large-6 columns">
-                      <label>Your E-mail</label>
-                      <span class="wpcf7-form-control-wrap your-email">
-                        <input type="text" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" aria-required="true" aria-invalid="false" />
-                      </span>
-                    </div>
-                    <div class="small-12 columns">
-                      <label>Your Message</label>
-                      <span class="wpcf7-form-control-wrap your-message">
-                        <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea full" aria-invalid="false"></textarea>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="small-12 columns">
-                      <input type="submit" value="Send Message" class="wpcf7-form-control wpcf7-submit btn" />
-                    </div>
-                  </div>
-                  <div class="wpcf7-response-output wpcf7-display-none"></div>
-                </form>
+                <%= render 'message' %>
               </div>
             </div>
           </div>
