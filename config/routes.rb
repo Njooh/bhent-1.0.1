@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get 'blog' => 'blog#index'
 
-  get 'blog/article/1' => 'blog#article_1'
+  get 'blog/article/:id' => 'blog#show'
 
   get 'portfolio/bates-motel' => 'portfolio#bates_motel'
 
@@ -35,6 +35,7 @@ Rails.application.routes.draw do
   root 'home#index'
 
   get 'contact-us' => 'contact_us#index'
+  post 'contact-us', to: 'contact_us#create'
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
