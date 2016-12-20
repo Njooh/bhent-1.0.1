@@ -51,15 +51,15 @@
             <div class="wpb_wrapper">
               <div class="wpb_text_column wpb_content_element   vc_custom_1475053514797">
                 <div class="wpb_wrapper">
-                <h6>Contact Us</h6>
-                  <h3><strong>Let us know what you have in mind, and we&#8217;ll get back to you in an instant!</strong></h3>
+                <h6><%= t('contact.header')%> </h6>
+                  <h3><strong><%=t('contact.sub.header') %></strong></h3>
                 </div>
               </div>
                 <% flash.each do |message_type, message| %>
 
                       <div class="<%=message_type %>" style="text-align: center">
                         <!--<button class="close-button" data-close>&times;</button>-->
-                        <p><%= message %>.</p>
+                        <p><%= t('contact.message.success') %>.</p>
                       </div>
 
                 <% end %>

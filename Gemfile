@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.5'
 
 #use to handle image uploading
 gem 'paperclip', '~> 5.1'
+gem 'rails-i18n' # used for translation
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

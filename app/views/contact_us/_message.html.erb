@@ -1,48 +1,10 @@
-<!--<form action="http://werkstatt.fuelthemes.net/werkstatt-agency-simple/contact-us-2/#wpcf7-f220-p285-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-                  <div style="display: none;">
-                    <input type="hidden" name="_wpcf7" value="220" />
-                    <input type="hidden" name="_wpcf7_version" value="4.5.1" />
-                    <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f220-p285-o1" />
-                    <input type="hidden" name="_wpnonce" value="a4d8bb537a" />
-                  </div>
-                  <div class="row">
-                    <div class="small-12 large-6 columns">
-                      <label>Your Name</label>
-                      <span class="wpcf7-form-control-wrap your-firstname">
-                        <input type="text" name="your-firstname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" aria-required="true" aria-invalid="false" />
-                      </span>
-                    </div>
-                    <div class="small-12 large-6 columns">
-                      <label>Your E-mail</label>
-                      <span class="wpcf7-form-control-wrap your-email">
-                        <input type="text" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" aria-required="true" aria-invalid="false" />
-                      </span>
-                    </div>
-                    <div class="small-12 columns">
-                      <label>Your Message</label>
-                      <span class="wpcf7-form-control-wrap your-message">
-                        <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea full" aria-invalid="false"></textarea>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="small-12 columns">
-                      <input type="submit" value="Send Message" class="wpcf7-form-control wpcf7-submit btn" />
-                    </div>
-                  </div>
-                  <div class="wpcf7-response-output wpcf7-display-none">
-                    
-                  </div>
-</form>-->
 <%= form_for(@message, url: contact_us_path) do |f| %>
    <% if @message.errors.any? %>
     <div id="error_explanation">
-      <h6><%= pluralize(@message.errors.count, "error") %> prohibited this message from being sent:</h6>
-
+      <p><%= t('errors.template.body')%></p>
       <ul>
       <% @message.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
+        <li><%= raw message %></li>
       <% end %>
       </ul>
     </div>
@@ -50,20 +12,20 @@
   <div class="row">
 
       <div class="small-12 large-6 columns">
-        <label>Your Name</label>
+        <%= f.label t('contact.form.name') %>
         <span class="wpcf7-form-control-wrap your-firstname">
           <%= f.text_field :name, class: 'wpcf7-form-control wpcf7-text wpcf7-validates-as-required full' %>
         </span>
       </div>
       <div class="small-12 large-6 columns">
-        <label>Your E-mail</label>
+        <%= f.label t('contact.form.email') %>
         <span class="wpcf7-form-control-wrap your-email">
                         
           <%= f.email_field :email, class: 'wpcf7-form-control wpcf7-text wpcf7-validates-as-required full' %>
         </span>
       </div>
       <div class="small-12 columns">
-        <label>Your Message</label>
+        <%= f.label t('contact.form.message')%>
         <span class="wpcf7-form-control-wrap your-message">
           <%= f.text_area :content, class: 'wpcf7-form-control wpcf7-textarea full' %>
         </span>
@@ -71,7 +33,7 @@
     </div>
     <div class="row">
       <div class="small-12 columns">
-        <%= f.submit 'Send Message', class: 'wpcf7-form-control wpcf7-submit btn' %>
+        <%= f.submit t('contact.form.send'), class: 'wpcf7-form-control wpcf7-submit btn' %>
       </div>
     </div>
     <div class="wpcf7-response-output wpcf7-display-none">

@@ -36,6 +36,7 @@ Rails.application.routes.draw do
 
   get 'contact-us' => 'contact_us#index'
   post 'contact-us', to: 'contact_us#create'
+  get '/change_locale/:locale', to: 'language_settings#change_locale', as: :change_locale
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
