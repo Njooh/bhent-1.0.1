@@ -22181,3 +22181,337 @@ Processing by HomeController#about_us as HTML
 Completed 200 OK in 648ms (Views: 618.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/about-us-agency" for ::1 at 2016-12-20 20:11:46 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (87.8ms)
+  Rendered home/about_us.html.erb within layouts/application (138.1ms)
+  Rendered layouts/shared/_header.html.erb (10.5ms)
+  Rendered layouts/shared/_footer.html.erb (10.3ms)
+Completed 200 OK in 742ms (Views: 717.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact-us" for ::1 at 2016-12-20 20:11:54 +0100
+Processing by ContactUsController#index as HTML
+  Rendering contact_us/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (27.3ms)
+  Rendered contact_us/_message.html.erb (10.3ms)
+  Rendered contact_us/index.html.erb within layouts/application (78.1ms)
+  Rendered layouts/shared/_header.html.erb (23.4ms)
+  Rendered layouts/shared/_footer.html.erb (3.9ms)
+Completed 200 OK in 430ms (Views: 402.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-20 20:12:11 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (38.5ms)
+  Rendered home/index.html.erb within layouts/application (95.9ms)
+  Rendered layouts/shared/_header.html.erb (27.4ms)
+  Rendered layouts/shared/_footer.html.erb (5.6ms)
+Completed 200 OK in 585ms (Views: 549.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact-us" for ::1 at 2016-12-20 20:33:20 +0100
+Processing by ContactUsController#index as HTML
+  Rendering contact_us/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (83.0ms)
+  Rendered contact_us/_message.html.erb (19.2ms)
+  Rendered contact_us/index.html.erb within layouts/application (175.4ms)
+  Rendered layouts/shared/_header.html.erb (25.8ms)
+  Rendered layouts/shared/_footer.html.erb (4.6ms)
+Completed 200 OK in 1116ms (Views: 1069.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/change_locale/en" for ::1 at 2016-12-20 20:33:30 +0100
+Processing by LanguageSettingsController#change_locale as HTML
+  Parameters: {"locale"=>"en"}
+Redirected to http://localhost:3000/contact-us
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/contact-us" for ::1 at 2016-12-20 20:33:30 +0100
+Processing by ContactUsController#index as HTML
+  Rendering contact_us/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (94.3ms)
+  Rendered contact_us/_message.html.erb (5.3ms)
+  Rendered contact_us/index.html.erb within layouts/application (172.3ms)
+  Rendered layouts/shared/_header.html.erb (48.8ms)
+  Rendered layouts/shared/_footer.html.erb (6.4ms)
+Completed 200 OK in 720ms (Views: 716.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-21 06:59:26 +0100
+Started GET "/" for ::1 at 2016-12-21 06:59:26 +0100
+Processing by HomeController#index as HTML
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (327.0ms)
+  Rendered layouts/shared/_logo_header_menu.html.erb (384.9ms)
+  Rendered home/index.html.erb within layouts/application (461.2ms)
+  Rendered home/index.html.erb within layouts/application (825.5ms)
+  Rendered layouts/shared/_header.html.erb (20.2ms)
+  Rendered layouts/shared/_header.html.erb (79.2ms)
+  Rendered layouts/shared/_footer.html.erb (7.4ms)
+  Rendered layouts/shared/_footer.html.erb (5.4ms)
+Completed 200 OK in 5112ms (Views: 4898.7ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5024ms (Views: 4866.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/change_locale/fr" for ::1 at 2016-12-21 07:00:56 +0100
+Processing by LanguageSettingsController#change_locale as HTML
+  Parameters: {"locale"=>"fr"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 42ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-21 07:00:56 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (105.6ms)
+  Rendered home/index.html.erb within layouts/application (321.6ms)
+  Rendered layouts/shared/_header.html.erb (102.0ms)
+  Rendered layouts/shared/_footer.html.erb (154.8ms)
+Completed 200 OK in 1657ms (Views: 1601.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/change_locale/en" for ::1 at 2016-12-21 07:01:38 +0100
+Processing by LanguageSettingsController#change_locale as HTML
+  Parameters: {"locale"=>"en"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-21 07:01:38 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (140.2ms)
+  Rendered home/index.html.erb within layouts/application (347.1ms)
+  Rendered layouts/shared/_header.html.erb (73.0ms)
+  Rendered layouts/shared/_footer.html.erb (17.2ms)
+Completed 200 OK in 1099ms (Views: 1072.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/recipes/index.html" for ::1 at 2016-12-21 07:02:03 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/portfolio/recipes/index.html"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.3ms)
+  Rendered collection of /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [20 times] (325.5ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (593.9ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (55.8ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1527.8ms)
+Started GET "/" for ::1 at 2016-12-21 07:02:44 +0100
+Processing by HomeController#index as HTML
+Started GET "/" for ::1 at 2016-12-21 07:02:44 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (128.5ms)
+  Rendered layouts/shared/_logo_header_menu.html.erb (60.3ms)
+  Rendered home/index.html.erb within layouts/application (314.5ms)
+  Rendered home/index.html.erb within layouts/application (207.1ms)
+Completed 500 Internal Server Error in 1239ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+    143:     <%= csrf_meta_tags %>
+    144: 
+    145:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    146:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    147:     <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+    148:   </head>
+    149: 
+  
+app/views/layouts/application.html.erb:146:in `_app_views_layouts_application_html_erb__4173738845809138028_70237076522780'
+  Rendered layouts/shared/_header.html.erb (24.9ms)
+  Rendered layouts/shared/_footer.html.erb (25.5ms)
+Completed 200 OK in 2011ms (Views: 2002.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (48.0ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (230.3ms)
+Started GET "/about-us-agency" for ::1 at 2016-12-21 07:03:02 +0100
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (73.0ms)
+  Rendered home/about_us.html.erb within layouts/application (194.6ms)
+  Rendered layouts/shared/_header.html.erb (15.6ms)
+  Rendered layouts/shared/_footer.html.erb (10.7ms)
+Completed 200 OK in 1001ms (Views: 953.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-12-21 11:19:22 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (206.0ms)
+  Rendered collection of /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [20 times] (902.7ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (20.6ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (54.2ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1829.6ms)
+Started GET "/login" for ::1 at 2016-12-21 11:37:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1557.4ms)
+  Rendered collection of /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [20 times] (7468.4ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (960.5ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (141.3ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (13496.0ms)
+Started GET "/login" for ::1 at 2016-12-21 11:41:35 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (87.8ms)
+  Rendered collection of /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [20 times] (991.3ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (104.7ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (97.2ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2380.7ms)
+Started GET "/about-us-agency" for ::1 at 2016-12-21 13:26:59 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (21.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#about_us as HTML
+  Rendering home/about_us.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (6796.9ms)
+  Rendered home/about_us.html.erb within layouts/application (6998.3ms)
+  Rendered layouts/shared/_header.html.erb (4.2ms)
+  Rendered layouts/shared/_footer.html.erb (55.7ms)
+Completed 200 OK in 18940ms (Views: 18531.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-21 13:28:15 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (116.5ms)
+  Rendered home/index.html.erb within layouts/application (163.5ms)
+  Rendered layouts/shared/_header.html.erb (22.9ms)
+  Rendered layouts/shared/_footer.html.erb (15.2ms)
+Completed 200 OK in 777ms (Views: 715.1ms | ActiveRecord: 0.0ms)
+
+
