@@ -31,18 +31,22 @@ en:
   home:
     index:
       welcome:      "Welcome to Bhent"
-      stable:     "We are an awesome branding"
-      stable2:     "agency creating"
+      stable:     "We are a branding, design & digital creative agency."
+      stable2:     "We bring new brands to life & breathe new life into existing ones"
+      stable3:     "by creating"
       artworks:     "artworks"
       concepts:     "concepts"
       dreams:       "dreams"
       interiors:  "interiors"
+      brand_design:  "brand design"
+      website:  "website"
+      mobile_application:  "mobile application"
       what_we_do:   "What we do"
       topography1:    "Typography is the origin of language and of"
       human:          "human"
       topography2:    "communication. Moreover typography is the"
       fundamental:     "fundament"
-      topography3:    "of our culture, of ourselves. Only through language, we as the human race could evolve."
+      topography3:    "of our culture, of ourselves. Only through language, we as the brand could evolve."
       brand_strategy:    "Brand Strategy"
       brand_analysis:     "Brand Analysis"
       brand_platform:   "Brand Platform"
@@ -83,7 +87,7 @@ en:
       contact:        "Contact Us"
     languages:
       fr:         "French (France)"
-      en:         "English (US)"
+      en:         "English (United States)"
   contact:
     header:         "Contact Us"
     sub:
