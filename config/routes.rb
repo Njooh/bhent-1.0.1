@@ -4,29 +4,46 @@ Rails.application.routes.draw do
 
   get 'blog/article/:id' => 'blog#show'
 
-  get 'portfolio/bates-motel' => 'portfolio#bates_motel'
+  get 'portfolio/blacknwhite', to: 'portfolio#black_white'
+  get 'portfolio/olialima' => 'portfolio#olialima'
 
-  get 'portfolio/broacay-planet' => 'portfolio#broacay_planet'
+  get 'portfolio/mahou' => 'portfolio#mahou'
 
-  get 'portfolio/paloma-rincon' => 'portfolio#paloma_rincon'
+  get 'portfolio/bhent' => 'portfolio#bhent'
 
-  get 'portfolio/france-cisco' => 'portfolio#france_cisco'
+  get 'portfolio/olympic-gaming' => 'portfolio#olympic_gaming'
 
-  get 'portfolio/five-dime' => 'portfolio#five_dime'
+  get 'portfolio/solim' => 'portfolio#solim'
 
-  get 'portfolio/soul-plasticity' => 'portfolio#soul_plasticity'
+  get 'portfolio/bambou-lounge' => 'portfolio#bambou_lounge'
 
-  get 'portfolio/recipes' => 'portfolio#recipes'
+  get 'portfolio/lilac-travel' => 'portfolio#lilac_travel'
 
-  get 'portfolio/wrist-watch' => 'portfolio#wrist_watch'
+  get 'portfolio/smile-restaurant' => 'portfolio#smile_restaurant'
 
-  get 'portfolio/forpackad' => 'portfolio#forpackad'
+  get 'portfolio/forpackad'
 
-  get 'portfolio/the-deer-hunter' => 'portfolio#the_deer_hunter'
+  get 'portfolio/the-deer-hunter'
 
-  get 'portfolio/authentic-weather' => 'portfolio#authentic_weather'
+  get 'portfolio/authentic-weather'
 
-  get 'portfolio/nyt-well' => 'portfolio#nyt_well'
+  get 'portfolio/nyt-well'
+
+  get '/portfolio/wrist-watch'
+
+  get '/portfolio/recipes'
+
+  get '/portfolio/soul-plasticity'
+
+  get '/portfolio/five-dime'
+
+  get '/portfolio/the-little-fox'
+
+  get '/portfolio/paloma-rincon'
+
+  get '/portfolio/broacay-planet'
+
+  get '/portfolio/duerme-pueblo'
 
   get 'portfolio' => 'portfolio#index'
 
