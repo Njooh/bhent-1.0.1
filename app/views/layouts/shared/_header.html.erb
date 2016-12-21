@@ -13,6 +13,7 @@
     <div>
       <div class="mobile-menu-top">
         <div class="thb-language-switcher" id="thb_language_selector">
+
           
           <% if cookies[:bhent_locale].include?("en") %>
             <%= link_to t('menu.languages.fr'), change_locale_path(:fr)%>
@@ -21,6 +22,7 @@
             <%= link_to t('menu.languages.fr'), change_locale_path(:fr), class: 'active' %>
             <%= link_to t('menu.languages.en'), change_locale_path(:en) %>
           <%end%>
+
 
         </div>
         <ul id="menu-navigation" class="thb-mobile-menu">
