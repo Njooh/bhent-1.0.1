@@ -46,5 +46,36 @@ $bhent_black_font: 'BhentDisplay-Black';
 }
 
 h1.title-header {
-  font-size: 42px;
+  font-size: 34px;
+}
+
+// Portfolio
+.thb-portfolio aside{
+  text-align: center;
+  font-weight: bold;
+}
+
+.black-white{
+  background-image: image_url('11950252_1001471116542907_5787545759547324377_o.jpg');
+}
+.olympic-gaming{
+  background-image: image_url('10404211_564666183680168_2752545429282497705_n.jpg');
+}
+.smile{
+  background-image: image_url('Smile-7-598x400.jpg');
+}
+.olialima{
+  background-image: image_url('olialima.jpg');
+}
+.solim{
+  background-image: image_url('solim.jpg');
+}
+.mahou{
+  background-image: image_url('mahou.jpg');
+}
+.lilac{
+  background-image: image_url('lilac-travel.jpg');
+}
+.bambou-lounge{
+  background-image: image_url('bambou.jpg');
 }
