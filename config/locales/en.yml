@@ -25,28 +25,33 @@ en:
     shared:
       footer:
         address:    "Our Address"
+        address_street:    "N2 Street - Odza (Mbog-Abang)."
+        address_box:    "P.O. Box. 1452"
+        address_town:    "Yaounde - Cameroon."
         intouch:     "Get in touch"
         navigate:     "navigate"
         follow:       "Follow Us"
+        copyright:         "Copyright"
+        copyright_allright:         "All rights reserved."
   home:
     index:
       welcome:      "Welcome to Bhent"
       stable:     "We are a branding, design & digital creative agency."
       stable2:     "We bring new brands to life & breathe new life into existing ones"
       stable3:     "by creating"
-      artworks:     "artworks"
-      concepts:     "concepts"
-      dreams:       "dreams"
-      interiors:  "interiors"
-      brand_design:  "brand design"
-      website:  "website"
-      mobile_application:  "mobile application"
+      corporate_identities:     "corporate identities"
+      logos:     "logo designs"
+      brand_design:  "brand designs"
+      interiors:  "interior designs"
+      corporate_communications:  "corporate communications"
+      marketing_campaigns:  "marketing campaigns"
+      website:  "websites"
+      mobile_application:  "mobile apps"
       what_we_do:   "What we do"
-      topography1:    "Typography is the origin of language and of"
-      human:          "human"
-      topography2:    "communication. Moreover typography is the"
-      fundamental:     "fundament"
-      topography3:    "of our culture, of ourselves. Only through language, we as the brand could evolve."
+      what_we_do1:    "With insight led branding at our core we are adept at implementing our work"
+      what_we_do2:    "across an extensive array of brand touchpoints."
+      what_we_do3:    "From professional corporate stationery & communications, effective marketing & advertising"
+      what_we_do4:    "through to engaging digital applications."
       brand_strategy:    "Brand Strategy"
       brand_analysis:     "Brand Analysis"
       brand_platform:   "Brand Platform"
@@ -67,6 +72,101 @@ en:
       brand_retail:         "Retail"
       brand_publishing:     "Publishing"
       brand_promotion:      "Promotion"
+      learn_more:      "Learn More →"
+      categiries_portfolio1:      "Brand Identity & Image - Brand Digital & Physical Expression"
+      categiries_portfolio2:      "Brand Digital & Physical Expression"
+      categiries_portfolio3:      "Brand Image - Brand Digital & Physical Expression"
+      categiries_portfolio4:      "Agency Branding"
+      categiries_portfolio5:      "Brand Identity & Image"
+      categiries_portfolio6:      "Brand Physical Expression & Events"
+      categiries_portfolio7:      "Brand Physical Expression"
+      categiries_portfolio8:      "Brand Digital Expression"
+
+
+  about:
+    index:
+      we_create:   "We create corporate identities, logo designs, interior designs,"
+      we_create1:   "brand designs, corporate communications,"
+      we_create2:   "marketing campaigns, websites & mobile apps"
+      expertise:   "Expertise"
+      expertise_title_content:   "Our modus operandi utilises a tried & tested procedure for each & every project,
+                                  regardless of the industry sector for which we are designing."
+      expertise_descrip:   "We refer to this as EnjoyBranding’s ‘methodology’ which thrives on collaboration between us & our clients.
+                            This influences, shapes & determines the correct final project outcome, ensuring dynamic results."
+      expertise_research:   "1. Research"
+      expertise_research_content:    "We ask the right questions & listen intently to the answers.
+                                      Research is vital to ensure we fully understand your audience,
+                                      your business & your industry. We take the necessary steps to clarify your vision,
+                                      strategies, values & goals. We then distill these insights & present the findings."
+      expertise_research_item:
+        item_1: "Brand Workshops"
+        item_2: "Focus Groups"
+        item_3: "Interviews"
+        item_4: "Brand Questionnaires"
+        item_5: "Surveys"
+        item_6: "Competitor Analysis"
+        item_7: "Brand Audits"
+        item_8: "Industry Analysis & Trends"
+        item_9: "Category Reviews"
+      expertise_strategy:  "2. Strategy"
+      expertise_strategy_content:  "We articulate a newfound brand strategy based on factual insights & shrewd intuitive understanding,
+                                    comprising brand messaging, tone-of-voice, as well as pertinent visual stimuli to indicate the
+                                    proposed brand essence."
+      expertise_strategy_item:
+        item_1: "Brand Positioning"
+        item_2: "Brand Architecture"
+        item_3: "Brand Messaging"
+        item_4: "Brand Essence"
+        item_5: "Brand Values"
+        item_6: "Digital Strategy"
+      expertise_design:  "3. Conceptual Design"
+      expertise_design_content:  "We think conceptually about effective ways to communicate your business. We only present ideas that
+                                  are sure to resonate effectively with your audience. We apply our concepts to mock ups of key project
+                                  deliverables, enabling you to view our work in context. Together we determine a preferred visual
+                                  direction before we further develop & refine the chosen concept."
+      expertise_design_item:
+        item_1: "Naming"
+        item_2: "Messaging & Copywriting"
+        item_3: "Corporate Identities"
+        item_4: "Logo Design"
+      expertise_application:  "4. Application"
+      expertise_application_content:   "Once approved, we set about applying the design to the agreed project deliverables.
+                                        We are adept at crafting consistent & cohesive brand communications, both on & offline,
+                                        from print & packaging, marketing & advertising to websites & other digital applications."
+      expertise_application_item:
+        item_1: "Corporate Stationery"
+        item_2: "Corporate Communications"
+        item_3: "Packaging"
+        item_4: "Editorial"
+        item_5: "Marketing Campaigns"
+        item_6: "Advertising"
+        item_7: "Event Materials"
+        item_8: "Website Design & Development"
+        item_9: "Mobile Apps Design & Development"
+        item_10: "Online Banners"
+        item_11: "Video"
+      expertise_support:  "5. Support"
+      expertise_support_content:   "The Bhent team welcome the opportunity to support your ongoing business marketing needs.
+                                    We act as an extension of your team, providing valuable strategic support, campaign management,
+                                    implementation & maintenance. This personalised approach enables our clients to benefit from working
+                                    alongside a dedicated team who understand your business and its unique requirements."
+      expertise_support_item:
+        item_1: "Website & Mobile Apps Maintenance"
+        item_2: "Analytics & Reporting"
+        item_3: "Print Management"
+        item_4: "Retainer Agreement"
+        item_5: "Campaign Management"
+      office: "Office"
+      office_content: "The dynamic Bhent collective brings together far more than just great talent.
+                       Agency culture is of paramount importance. Therefore at Bhent. you will benefit from our team of creatively accomplished,
+                       logically gifted, genuine folk, who are all obsessive in their quest for design perfection."
+      office_town:  "Yaounde"
+      office_adresse:  "N2 Street - Odza (Mbog-Abang), P.O. Box. 1452, Yaounde - Cameroon"
+      office_map:  "Get Directions"
+      clients:   "Our Clients"
+      clients_content:   "We take great pride in everything that we achieve on behalf of our clients & we are tremendously proud of our
+                          rapidly expanding portfolio of work."
+
 
 
 
@@ -98,7 +198,7 @@ en:
       message:        "Your Message"
       send:           "Send Message"
     message:
-      success:        "message sent!"
+      success:        "Message Sent!"
 
 
 

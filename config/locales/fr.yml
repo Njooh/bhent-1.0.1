@@ -4,48 +4,151 @@ fr:
     shared:
       footer:
         address:        "Notre adresse"
-        intouch:        "Entrer en contact"
-        navigate:       "Naviguer"
+        address_street:    "Rue N2 - Odza (Mbog-Abang)."
+        address_box:    "BP. 1452"
+        address_town:    "Yaoundé - Cameroun."
+        intouch:        "Contactez-nous"
+        navigate:       "Plan du site"
         follow:         "Suivez-nous"
+        copyright:         "Copyright"
+        copyright_allright:         "Tous droits réservés."
   home:
     index:
       welcome:    "Bienvenue à Bhent"
-      stable:     "Nous sommes une agence de branding, design & digital creative."
+      stable:     "Nous sommes une agence de branding, design & digital créative."
       stable2:     "Nous donnons vie à de nouvelles marques et insufflons une nouvelle vie à celles existantes"
       stable3:     "en créant"
-      artworks:     "des artworks"
-      concepts:     "des concepts"
-      dreams:       "de rêves"
-      interiors:  "des habillages intérieurs"
+      corporate_identities:     "Image de Marque"
+      logos:     "des designs de logo"
       brand_design:  "des designs de marque"
+      interiors:  "des designs d'intérieur"
+      corporate_communications:  "des communication institutionnelle"
+      marketing_campaigns:  "des campagnes marketing"
       website:  "des sites web"
-      mobile_application:  "des applications mobiles"
+      mobile_application:  "des applications mobile"
       what_we_do:     "Ce que nous faisons"
-      topography1:    "La typographie est l'origine du langage et de"
-      human:    "humain"
-      topography2:    "la communication. La typographie est"
-      fundamental:  "fondement"
-      topography3:      "de notre culture, de nous-mêmes. Ce n'est que par le langage que nous pourrions évoluer en tant que race humaine."
-      brand_strategy:    "Stratégie de marque"
-      brand_analysis:     "Analyse de la marque"
-      brand_platform:   "Plate-forme de marque"
-      brand_communi_idea:          "Idée de communication de marque"
-      brand_digital_s:             "Stratégie numérique de marque"
-      brand_identity:     "Identité et image de marque"
-      brand_naming:       "Appellation"
+      what_we_do1:    "Avec un aperçu de l'image de marque à notre noyau, nous sommes habiles à mettre en œuvre"
+      what_we_do2:    "notre travail à travers un large éventail de points de contact de marque."
+      what_we_do3:    "De la papeterie professionnelle et des communications, du marketing efficace et de la publicité"
+      what_we_do4:    "jusqu'à l'engagement des applications digitales."
+      brand_strategy:    "Stratégie de Marque"
+      brand_analysis:     "Audit de Marque"
+      brand_platform:   "Plate-forme de Marque"
+      brand_communi_idea:          "Brand Communication Idea"
+      brand_digital_s:             "Stratégie Digitale"
+      brand_identity:     "Identité & Image de Marque"
+      brand_naming:       "Naming"
       brand_logo:         "Logo"
-      brand_book:         "Livre de la marque"
-      key_visuals:        "Visuels clés"
-      brand_digital_e:    "Expression numérique de marque"
-      brand_website:       "Site Internet"
-      brand_mobile_app:     "Application mobile"
-      brand_social:         "Média sociaux"
+      brand_book:         "Brandbook"
+      key_visuals:        "Key Visuals"
+      brand_digital_e:    "Expression Digitale de la Marque"
+      brand_website:       "Sites Web"
+      brand_mobile_app:     "Applications Mobiles"
+      brand_social:         "Média Sociaux"
       brand_content:        "Contenu"
-      brand_physical_e:   "Expression physique de la marque"
-      brand_packaging:      "Emballage"
-      brand_retail:         "Vente au détail"
+      brand_physical_e:     "Expression physique de la Marque"
+      brand_packaging:      "Packaging"
+      brand_retail:         "Retail"
       brand_publishing:     "Édition"
       brand_promotion:      "Promotion"
+      learn_more:      "En Savoir Plus →"
+      categiries_portfolio1:      "Identité & Image de marque - Expression Digitale & Physique de la Marque"
+      categiries_portfolio2:      "Expression Digitale & Physique de la Marque"
+      categiries_portfolio3:      "Image de marque - Expression Digitale & Physique de la Marque"
+      categiries_portfolio4:      "Agence de Branding"
+      categiries_portfolio5:      "Identité & Image de marque"
+      categiries_portfolio6:      "Expression Physique de la Marque & Événements"
+      categiries_portfolio7:      "Expression Physique de la Marque"
+      categiries_portfolio8:      "Expression Digitale de la Marque"
+
+  about:
+      index:
+        we_create:   "Nous créons des chartes graphiques, des logos, des designs d'intérieur,"
+        we_create1:   "des images de marque, des communications d'entreprise,"
+        we_create2:   "des campagnes marketing, des sites web & des applications mobile"
+        expertise:   "Expertise"
+        expertise_title_content:   "Notre modus operandi utilise une procédure éprouvée pour chaque projet,
+                                    quel que soit le secteur d'activité pour lequel nous concevons."
+        expertise_descrip:   "Nous appelons ceci la «méthodologie» d'EnjoyBranding,
+                              qui se développe grâce à la collaboration entre nos clients et nous. Cela influence,
+                              forme et détermine le résultat final correct du projet, assurant des résultats dynamiques."
+        expertise_research:   "1. Recherche"
+        expertise_research_content:  "Nous posons les bonnes questions et écoutons attentivement les réponses.
+                                      La recherche est essentielle pour nous assurer de bien comprendre votre cible, votre entreprise
+                                      et votre secteur d'activité. Nous prenons les mesures nécessaires pour clarifier votre vision, vos stratégies,
+                                      vos valeurs et vos objectifs. Nous distillons ensuite ces idées et présentons les résultats."
+        expertise_research_item:
+          item_1: "Ateliers de la Marque"
+          item_2: "Groupes de Discussion"
+          item_3: "Interviews"
+          item_4: "Questionnaires de Marque"
+          item_5: "Enquêtes"
+          item_6: "Analyse de la Concurrence"
+          item_7: "Audits de la Marque"
+          item_8: "Analyse du Secteur d'Activité et des Tendances"
+          item_9: "Revues de Catégorie"
+        expertise_strategy:  "2. Strategie"
+        expertise_strategy_content:  "Nous articulons une nouvelle stratégie de marque basée sur des connaissances factuelles et une
+                                      compréhension intuitive astucieuse, comprenant la messagerie de la marque, le ton de la voix,
+                                      ainsi que des stimuli visuels pertinents pour indiquer l'essence de la marque proposée."
+        expertise_strategy_item:
+          item_1: "Positionnement de la Marque"
+          item_2: "Architecture de la Marque"
+          item_3: "Messagerie de Marque"
+          item_4: "Essence de la Marque"
+          item_5: "Les Valeurs de la Marque"
+          item_6: "Stratégie Digitale"
+        expertise_design:  "3. Design Conceptuel"
+        expertise_design_content:  "Nous pensons conceptuellement aux moyens efficaces de communiquer sur votre entreprise.
+                                    Nous ne présentons que des idées qui sont sûres de résonner efficacement avec votre auditoire.
+                                    Nous appliquons nos concepts à des maquettes de produits clés du projet,
+                                    vous permettant de visualiser notre travail dans le contexte. Ensemble,
+                                    nous déterminons une direction visuelle préférée avant de développer et de perfectionner le concept choisi."
+        expertise_design_item:
+          item_1: "Naming"
+          item_2: "Messagerie & Copywriting"
+          item_3: "Image de Marque"
+          item_4: "Création de Logo"
+        expertise_application:  "4. Application"
+        expertise_application_content:   "Une fois approuvés, nous appliquons la conception aux livrables du projet convenus.
+                                          Nous sommes habiles à concevoir des communications de marque cohérentes ,
+                                          en ligne et hors ligne, depuis l'impression et le packaging, le marketing et la publicité vers
+                                          les sites Web et autres applications digitles."
+        expertise_application_item:
+          item_1: "Papeterie d'Entreprise"
+          item_2: "Communication Institutionnelle"
+          item_3: "Packaging"
+          item_4: "Éditorial"
+          item_5: "Campagnes Marketing"
+          item_6: "Publicité"
+          item_7: "Matériel Événementiel"
+          item_8: "Conception et Développement de Sites Web"
+          item_9: "Conception et Développement d'Applications Mobiles"
+          item_10: "Bannières en Ligne"
+          item_11: "Vidéo"
+        expertise_support:  "5. Support"
+        expertise_support_content:   "L'équipe de Bhent se réjouit de l'opportunité de soutenir vos besoins en marketing d'entreprise.
+                                      Nous agissons comme une extension de votre équipe, fournissant un soutien stratégique précieux,
+                                      la gestion de la campagne, la mise en œuvre et la maintenance. Cette approche personnalisée permet à nos
+                                      clients de travailler avec une équipe dédiée qui comprend votre entreprise et ses besoins uniques."
+        expertise_support_item:
+          item_1: "Maintenance des Sites Web et des Applications Mobiles"
+          item_2: "Analyse et Reporting"
+          item_3: "Gestion de l'Impression"
+          item_4: "Mandat de Représentation"
+          item_5: "Gestion de Campagne"
+        office: "Bureau"
+        office_content:  "Le collectif dynamique de Bhent réunit bien plus que de grands talents.
+                          La culture de l'agence est d'une importance primordiale. Par conséquent, à Bhent, vous bénéficierez de
+                          notre équipe de gens créatifs et accomplis, logiquement doués, authentiques, qui sont tous obsédés dans leur
+                          quête pour la perfection de la conception."
+        office_town:  "Yaoundé"
+        office_adresse:  "Rue N2 - Odza (Mbog-Abang), BP. 1452, Yaoundé - Cameroun"
+        office_map:  "Obtenir l'itinéraire"
+        clients:  "Nos Clients"
+        clients_content:   "Nous prenons une grande fierté dans tout ce que nous accomplissons au nom de nos clients et nous sommes extrêmement
+                            fiers de notre portefeuille de travaux en pleine expansion."
+
 
 
   menu:
@@ -54,7 +157,7 @@ fr:
       portfolio:   "Portfolio"
       blog:         "Blog"
       about:        "À propos de nous"
-      contact:        "Contactez nous"
+      contact:        "Contactez-nous"
     languages:
       fr:         "Français (France)"
       en:         "Anglais (Etats-Unis)"
@@ -66,16 +169,16 @@ fr:
         one:        "%{count} message"
         other:      "%{count} des messages"
   contact:
-    header:           "Contactez nous"
+    header:           "Contactez-nous"
     sub:
       header:       "Faites-nous savoir ce que vous avez à l'esprit, et nous vous répondrons dans un instant!"
     form:
-      name:         "Votre nom"
+      name:         "Votre Nom"
       email:         "Votre E-mail"
-      message:        "Votre message"
+      message:        "Votre Message"
       send:           "Envoyer le message"
     message:
-      success:        "message envoyé!"
+      success:        "Message Mnvoyé!"
 
 
   activerecord:

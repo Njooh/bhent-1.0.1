@@ -45,12 +45,16 @@
   <div role="main" class="cf">
     <div class=" post-190 page type-page status-publish hentry">
       <div class="row wpb_row row-fluid align-center vc_custom_1474306346779">
-        <div class="wpb_column columns small-12 medium-12 large-7 medium-9 thb-dark-column">
+        <div class="wpb_column columns small-12 medium-12 large-12 medium-12 thb-dark-column">
           <div class="vc_column-inner ">
             <div class="wpb_wrapper">
               <div id="thb-fadetype-36" class="thb-fadetype">
-                <h1 style="text-align: center;" class="title-header">
-                  <div class="thb-fadetype-entry">We create artworks, concepts, interiors, brand design, website & mobile application</div>
+                <h1 style="text-align: center; font-size: 24px" class="title-header">
+                  <div class="thb-fadetype-entry">
+                    <%= t('about.index.we_create')%><br>
+                    <%= t('about.index.we_create1')%><br>
+                    <%= t('about.index.we_create2')%>
+                  </div>
                 </h1>
               </div>
             </div>
@@ -63,13 +67,25 @@
             <div class="wpb_wrapper">
               <div id="thb-image-slider-80" class="thb-image-slider slick thb-image-slider-style1    dark-arrow " data-pagination="true" data-navigation="" data-center="0" data-columns="1" data-infinite="false">
                 <figure>
-                  <img src="http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/uploads/sites/3/2016/09/slider_01.jpg" alt="slider_01" />
+                  <%= image_tag('about-1.jpg', :alt => "Corporate Stationery Branding") %>
                 </figure>
                 <figure>
-                  <img src="http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/uploads/sites/3/2016/09/slider_02.jpg" alt="slider_02" />
+                  <%= image_tag('about-2.jpg', :alt => "Strategies") %>
                 </figure>
                 <figure>
-                  <img src="http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/uploads/sites/3/2016/09/slider_03.jpg" alt="slider_03" />
+                  <%= image_tag('about-3.jpg', :alt => "Responsive Website") %>
+                </figure>
+                <figure>
+                  <%= image_tag('about-3-0.jpg', :alt => "Website Coding") %>
+                </figure>
+                <figure>
+                  <%= image_tag('about-4.jpg', :alt => "Digital Marketing") %>
+                </figure>
+                <figure>
+                  <%= image_tag('about-5.jpg', :alt => "Marketing Campaigns") %>
+                </figure>
+                <figure>
+                  <%= image_tag('about-6.jpg', :alt => "Interior Design Living Room") %>
                 </figure>
               </div>
             </div>
@@ -82,20 +98,18 @@
             <div class="wpb_wrapper">
               <div class="wpb_text_column wpb_content_element  ">
                 <div class="wpb_wrapper">
-                  <h4>Expertise</h4>
+                  <h4><%= t('about.index.expertise')%></h4>
                   <div class="row">
                     <div class="columns small-12 large-6 medium-6">
                       <h4 style="text-align: justify">
                         <strong>
-                          Our modus operandi utilises a tried & tested procedure for each & every project,
-                          regardless of the industry sector for which we are designing.
+                          <%= t('about.index.expertise_title_content')%>
                         </strong>
                       </h4>
                     </div>
                     <div class="columns small-12 large-6 medium-6">
                       <p style="font-size: 16px; text-align: left">
-                        We refer to this as EnjoyBranding’s ‘mythodology’ which thrives on collaboration between us & our clients.
-                        This influences, shapes & determines the correct final project outcome, ensuring dynamic results.
+                        <%= t('about.index.expertise_descrip')%>
                       </p>
                     </div>
                   </div>
@@ -107,23 +121,20 @@
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  ">
                         <div class="wpb_wrapper">
-                          <p><span style="color: #ea5b11;"><strong>1. Research</strong></span></p>
+                          <p><span style="color: #ea5b11;"><strong><%= t('about.index.expertise_research')%></strong></span></p>
                           <p>
-                            We ask the right questions & listen intently to the answers.
-                            Research is vital to ensure we fully understand your audience,
-                            your business & your industry. We take the necessary steps to clarify your vision,
-                            strategies, values & goals. We then distill these insights & present the findings.
+                            <%= t('about.index.expertise_research_content')%>
                           </p>
                           <ul>
-                            <li>Brand Workshops</li>
-                            <li>Focus Groups</li>
-                            <li>Interviews</li>
-                            <li>Brand Questionnaires</li>
-                            <li>Surveys</li>
-                            <li>Competitor Analysis</li>
-                            <li>Brand Audits</li>
-                            <li>Industry Analysis & Trends</li>
-                            <li>Category Reviews</li>
+                            <li><%= t('about.index.expertise_research_item.item_1')%></li>
+                            <li><%= t('about.index.expertise_research_item.item_2')%></li>
+                            <li><%= t('about.index.expertise_research_item.item_3')%></li>
+                            <li><%= t('about.index.expertise_research_item.item_4')%></li>
+                            <li><%= t('about.index.expertise_research_item.item_5')%></li>
+                            <li><%= t('about.index.expertise_research_item.item_6')%></li>
+                            <li><%= t('about.index.expertise_research_item.item_7')%></li>
+                            <li><%= t('about.index.expertise_research_item.item_8')%></li>
+                            <li><%= t('about.index.expertise_research_item.item_9')%></li>
                           </ul>
                         </div>
                       </div>
@@ -135,19 +146,17 @@
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  ">
                         <div class="wpb_wrapper">
-                          <p><span style="color: #ea5b11;"><strong>2. Strategy</strong></span></p>
+                          <p><span style="color: #ea5b11;"><strong><%= t('about.index.expertise_strategy')%></strong></span></p>
                           <p>
-                            We articulate a newfound brand strategy based on factual insights & shrewd intuitive understanding,
-                            comprising brand messaging, tone-of-voice, as well as pertinent visual stimuli to indicate the
-                            proposed brand essence.
+                            <%= t('about.index.expertise_strategy_content')%>
                           </p>
                           <ul>
-                            <li>Brand Positioning</li>
-                            <li>Brand Architecture</li>
-                            <li>Brand Messaging</li>
-                            <li>Brand Essence</li>
-                            <li>Brand Values</li>
-                            <li>Digital / Online Strategy</li>
+                            <li><%= t('about.index.expertise_strategy_item.item_1')%></li>
+                            <li><%= t('about.index.expertise_strategy_item.item_2')%></li>
+                            <li><%= t('about.index.expertise_strategy_item.item_3')%></li>
+                            <li><%= t('about.index.expertise_strategy_item.item_4')%></li>
+                            <li><%= t('about.index.expertise_strategy_item.item_5')%></li>
+                            <li><%= t('about.index.expertise_strategy_item.item_6')%></li>
                           </ul>
                         </div>
                       </div>
@@ -159,18 +168,15 @@
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  ">
                         <div class="wpb_wrapper">
-                          <p><span style="color: #ea5b11;"><strong>3. Conceptual Design</strong></span></p>
+                          <p><span style="color: #ea5b11;"><strong><%= t('about.index.expertise_design')%></strong></span></p>
                           <p>
-                            We think conceptually about effective ways to communicate your business.
-                            We only present ideas that are sure to resonate effectively with your audience.
-                            We apply our concepts to mock ups of key project deliverables, enabling you to view our work in context.
-                            Together we determine a preferred visual direction before we further develop & refine the chosen concept.
+                            <%= t('about.index.expertise_design_content')%>
                           </p>
                           <ul>
-                            <li>Naming</li>
-                            <li>Messaging & Copy Writing</li>
-                            <li>Corporate Identities</li>
-                            <li>Logo Design</li>
+                            <li><%= t('about.index.expertise_design_item.item_1')%></li>
+                            <li><%= t('about.index.expertise_design_item.item_2')%></li>
+                            <li><%= t('about.index.expertise_design_item.item_3')%></li>
+                            <li><%= t('about.index.expertise_design_item.item_4')%></li>
                           </ul>
                         </div>
                       </div>
@@ -182,24 +188,22 @@
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  ">
                         <div class="wpb_wrapper">
-                          <p><span style="color: #ea5b11;"><strong>4. Application</strong></span></p>
+                          <p><span style="color: #ea5b11;"><strong><%= t('about.index.expertise_application')%></strong></span></p>
                           <p>
-                            Once approved, we set about applying the design to the agreed project deliverables.
-                            We are adept at crafting consistent & cohesive brand communications,
-                            both on & offline, from print & packaging, marketing & advertising to websites & other digital applications.
+                            <%= t('about.index.expertise_application_content')%>
                           </p>
                           <ul>
-                            <li>Corporate Stationery</li>
-                            <li>Corporate Communications</li>
-                            <li>Packaging</li>
-                            <li>Editorial</li>
-                            <li>Marketing Campaigns</li>
-                            <li>Advertising</li>
-                            <li>Event Materials</li>
-                            <li>Website Design & Development</li>
-                            <li>Mobile Apps Design & Development</li>
-                            <li>Online Banners</li>
-                            <li>Video</li>
+                            <li><%= t('about.index.expertise_application_item.item_1')%></li>
+                            <li><%= t('about.index.expertise_application_item.item_2')%></li>
+                            <li><%= t('about.index.expertise_application_item.item_3')%></li>
+                            <li><%= t('about.index.expertise_application_item.item_4')%></li>
+                            <li><%= t('about.index.expertise_application_item.item_5')%></li>
+                            <li><%= t('about.index.expertise_application_item.item_6')%></li>
+                            <li><%= t('about.index.expertise_application_item.item_7')%></li>
+                            <li><%= t('about.index.expertise_application_item.item_8')%></li>
+                            <li><%= t('about.index.expertise_application_item.item_9')%></li>
+                            <li><%= t('about.index.expertise_application_item.item_10')%></li>
+                            <li><%= t('about.index.expertise_application_item.item_11')%></li>
                           </ul>
                         </div>
                       </div>
@@ -211,19 +215,16 @@
                     <div class="wpb_wrapper">
                       <div class="wpb_text_column wpb_content_element  ">
                         <div class="wpb_wrapper">
-                          <p><span style="color: #ea5b11;"><strong>5. Support</strong></span></p>
+                          <p><span style="color: #ea5b11;"><strong><%= t('about.index.expertise_support')%></strong></span></p>
                           <p>
-                            The Bhent team welcome the opportunity to support your ongoing business marketing needs.
-                            We act as an extension of your team, providing valuable strategic support, campaign management,
-                            implementation & maintenance. This personalised approach enables our clients to benefit from
-                            working alongside a dedicated team who understand your business and its unique requirements.
+                            <%= t('about.index.expertise_support_content')%>
                           </p>
                           <ul>
-                            <li>Website&Apps Maintenance</li>
-                            <li>Analytics & Reporting</li>
-                            <li>Print Management</li>
-                            <li>Retainer Agreement</li>
-                            <li>Campaign Management</li>
+                            <li><%= t('about.index.expertise_support_item.item_1')%></li>
+                            <li><%= t('about.index.expertise_support_item.item_2')%></li>
+                            <li><%= t('about.index.expertise_support_item.item_3')%></li>
+                            <li><%= t('about.index.expertise_support_item.item_4')%></li>
+                            <li><%= t('about.index.expertise_support_item.item_5')%></li>
                           </ul>
                         </div>
                       </div>
@@ -356,12 +357,9 @@
             <div class="wpb_wrapper">
               <div class="wpb_text_column wpb_content_element  text-center">
                 <div class="wpb_wrapper">
-                  <h4>Office</h4>
+                  <h4><%= t('about.index.office')%></h4>
                   <p>
-                    The dynamic <strong>Bhent</strong> collective brings together far more than just great talent.<br/>
-                    Agency culture is of paramount importance. Therefore at <strong>Bhent</strong>. you will benefit
-                    from our team of creatively accomplished, logically gifted, genuine folk, who are all
-                    obsessive in their quest for design perfection.
+                    <%= t('about.index.office_content')%>
                   </p>
                 </div>
               </div>
@@ -373,22 +371,22 @@
         <div class="text-center wpb_column columns small-12 medium-12 large-9 medium- thb-dark-column">
           <div class="vc_column-inner ">
             <div class="wpb_wrapper">
-              <img width="562" height="340" src="http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/uploads/sites/3/2016/09/office_02.jpg" class="thb_image animation fade-in left full  attachment-full" alt="office_02" />
+              <!--<img width="562" height="340" src="http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/uploads/sites/3/2016/09/office_02.jpg" class="thb_image animation fade-in left full  attachment-full" alt="office_02" />-->
               <div class="vc_empty_space"  style="height: 40px" >
                 <span class="vc_empty_space_inner"></span>
               </div>
               <div class="wpb_text_column wpb_content_element vc_custom_1474302542922 text-center">
                 <div class="wpb_wrapper">
-                  <h2>Yaoundé</h2>
+                  <h2><%= t('about.index.office_town')%></h2>
                   <p>
-                    N2 Street - Odza (Mbog-Abang), P.O. Box. 1452, Yaounde<br />
+                    <%= t('about.index.office_adresse')%><br />
                     <strong>M.</strong> <a href="callto:695-953-666">695-953-666</a> / <a href="callto:652-199-227">652-199-227</a><br />
                     <strong>E.</strong> <a href="mailto:hello@bhent.xyz">hello@bhent.xyz</a>
                   </p>
                 </div>
               </div>
               <a class="btn animation bottom-to-top" href="https://goo.gl/maps/fj6rdQduqpL2" target=" _blank" role="button" title="Get Directions">
-                <span>Get Directions</span>
+                <span><%= t('about.index.office_map')%></span>
               </a>
               <div class="vc_empty_space"  style="height: 30px" ><span class="vc_empty_space_inner"></span></div>
             </div>
@@ -401,10 +399,9 @@
             <div class="wpb_wrapper">
               <div class="wpb_text_column wpb_content_element  text-center">
                 <div class="wpb_wrapper">
-                  <h4>Clients</h4>
+                  <h4><%= t('about.index.clients')%></h4>
                   <p>
-                    We take great pride in everything that we achieve on behalf of our clients & we are
-                    tremendously proud of our rapidly expanding portfolio of work.
+                    <%= t('about.index.clients_content')%>
                   </p>
                 </div>
               </div>
@@ -419,13 +416,48 @@
                 <div id="thb-client-logos-80" class="thb-client-row thb-opacity">
                   <div class="row no-padding style1" data-columns="small-6 large-3" data-center="true" data-navigation="true">
                     <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('01.png', size: "900x600", alt: "Black&amp;White", :class=>"attachment-full"), :controller => "portfolio", :action => "black_and_white" %>
+                    </div>
+                    <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('02.png', size: "900x600", alt: "Olympic Gaming", :class=>"attachment-full"), :controller => "portfolio", :action => "olympic_gaming" %>
+                    </div>
+                    <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('logo_lilac.png', size: "900x600", alt: "Lilac Travel", :class=>"attachment-full"), :controller => "portfolio", :action => "la_maison_du_cafe" %>
+                    </div>
+                    <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('Logo_bois-st-anastasie.png', size: "900x600", alt: "Le Bois Sainte Anastasie - Restaurant", :class=>"attachment-full"), :controller => "portfolio", :action => "le_bois_saint_anastasie" %>
+                    </div>
+                    <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('bambou_lounge.png', size: "900x600", alt: "Bambou Lounge", :class=>"attachment-full"), :controller => "portfolio", :action => "bambou_lounge" %>
+                    </div>
+                    <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('logo_mahou.png', size: "900x600", alt: "Mahou", :class=>"attachment-full"), :controller => "portfolio", :action => "mahou" %>
+                    </div>
+                    <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('logo_solim.png', size: "900x600", alt: "Solim", :class=>"attachment-full"), :controller => "portfolio", :action => "solim" %>
+                    </div>
+                    <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('iletelle_mode_logo.png', size: "900x600", alt: "il&elle mode", :class=>"attachment-full"), :controller => "portfolio", :action => "iletelle_mode" %>
+                    </div>
+                    <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('logo_maison_du_cafe.png', size: "900x600", alt: "il&elle mode", :class=>"attachment-full"), :controller => "portfolio", :action => "la_maison_du_cafe" %>
+                    </div>
+                    <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('logo_smile.png', size: "900x600", alt: "il&elle mode", :class=>"attachment-full"), :controller => "portfolio", :action => "smile" %>
                       <a href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes" target=" _blank">
-                        <%= image_tag('01.png', size: "900x600", alt: "t_02", :class=>"attachment-full") %>
+                        <%= image_tag('logo_smile.png', size: "900x600", alt: "il&elle mode", :class=>"attachment-full") %>
                       </a>
                     </div>
                     <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('logo_maison_du_cafe.png', size: "900x600", alt: "il&elle mode", :class=>"attachment-full"), :controller => "portfolio", :action => "la_maison_du_cafe" %>
                       <a href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes" target=" _blank">
-                        <%= image_tag('02.png', size: "900x600", alt: "t_02", :class=>"attachment-full") %>
+                        <%= image_tag('logo_makkrol.png', size: "900x600", alt: "il&elle mode", :class=>"attachment-full") %>
+                      </a>
+                    </div>
+                    <div class="has-link thb-client small-6 large-3 columns" style="border-color: #f0f0f0">
+                      <%= link_to image_tag('logo_maison_du_cafe.png', size: "900x600", alt: "il&elle mode", :class=>"attachment-full"), :controller => "portfolio", :action => "la_maison_du_cafe" %>
+                      <a href="https://themeforest.net/item/werkstatt-creative-portfolio-theme/17870799?ref=fuelthemes" target=" _blank">
+                        <%= image_tag('logo_express-info.png', size: "900x600", alt: "il&elle mode", :class=>"attachment-full") %>
                       </a>
                     </div>
                   </div>
