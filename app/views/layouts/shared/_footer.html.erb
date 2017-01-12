@@ -13,9 +13,9 @@
         <div id="text-2" class="widget cf widget_text"><h6><%=t('layouts.shared.footer.address') %></h6>
           <div class="textwidget">
             <p>
-              N2 Street - Odza (Mbog-Abang).<br/>
-              P.O. Box. 1452<br/>
-              Yaounde - Cameroon.
+              <%=t('layouts.shared.footer.address_street') %><br/>
+              <%=t('layouts.shared.footer.address_box') %><br/>
+              <%=t('layouts.shared.footer.address_town') %>
             </p>
           </div>
         </div>
@@ -36,8 +36,6 @@
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"><a target="_blank" href="https://twitter.com/bhentbranding/">Twitter</a></li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35"><a target="_blank" href="https://www.instagram.com/bhentbranding/">Instagram</a></li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a target="_blank" href="https://www.linkedin.com/company/bhent-ltd/">Linkedin</a></li>
-              <!--<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"><a target="_blank" href="#">Pinterest</a></li>-->
-              <!--<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38"><a target="_blank" href="https://www.behance.net/aykutyilmaz">Behance</a></li>-->
             </ul>
           </div>
         </div>
@@ -62,9 +60,9 @@
               <%= link_to t('menu.item.contact'), contact_us_path %>
             </li>
           </ul>
-          <h6>Copyright</h6>
+          <h6><%= t('layouts.shared.footer.copyright')%></h6>
           <div class="textwidget">
-            <p>&copy; 2016 Bhent. All rights reserved.</p>
+            <p>&copy; 2016 Bhent. <%= t('layouts.shared.footer.copyright_allright')%></p>
           </div>
         </div>
       </div>

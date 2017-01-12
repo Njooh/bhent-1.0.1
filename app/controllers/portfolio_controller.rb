@@ -3,37 +3,43 @@ class PortfolioController < ApplicationController
   def index
   end
 
-  def nyt_well
+  def black_and_white
   end
 
-  def authentic_weather
+  def bhent
   end
 
-  def bates_motel
+  def le_bois_sainte_anastasie
   end
 
-  def broacay_planet
+  def la_maison_du_cafe
   end
 
-  def paloma_rincon
+  def iletelle_mode
   end
 
-  def france_cisco
+  def olialima
   end
 
-  def five_dime
+  def makkrol
   end
 
-  def soul_plasticity
+  def bambou_lounge
   end
 
-  def recipes
+  def lilac_travel
   end
 
-  def wrist_watch
+  def solim
   end
 
-  def forpackad
+  def mahou
+  end
+
+  def express_informatique
+  end
+
+  def smile
   end
 
 end

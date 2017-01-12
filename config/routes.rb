@@ -4,29 +4,33 @@ Rails.application.routes.draw do
 
   get 'blog/article/:id' => 'blog#show'
 
-  get 'portfolio/bates-motel' => 'portfolio#bates_motel'
+  get 'portfolio/makkrol' => 'portfolio#makkrol'
 
-  get 'portfolio/broacay-planet' => 'portfolio#broacay_planet'
+  get 'portfolio/le-bois-sainte-anastasie-restaurant' => 'portfolio#le_bois_sainte_anastasie'
 
-  get 'portfolio/paloma-rincon' => 'portfolio#paloma_rincon'
+  get 'portfolio/la-maison-du-cafe' => 'portfolio#la_maison_du_cafe'
 
-  get 'portfolio/france-cisco' => 'portfolio#france_cisco'
+  get 'portfolio/il-et-elle-mode' => 'portfolio#iletelle_mode'
 
-  get 'portfolio/five-dime' => 'portfolio#five_dime'
+  get 'portfolio/olialima' => 'portfolio#olialima'
 
-  get 'portfolio/soul-plasticity' => 'portfolio#soul_plasticity'
+  get 'portfolio/express-informatique' => 'portfolio#express_informatique'
 
-  get 'portfolio/recipes' => 'portfolio#recipes'
+  get 'portfolio/bambou-lounge' => 'portfolio#bambou_lounge'
 
-  get 'portfolio/wrist-watch' => 'portfolio#wrist_watch'
+  get 'portfolio/lilac-travel' => 'portfolio#lilac_travel'
 
-  get 'portfolio/forpackad' => 'portfolio#forpackad'
+  get 'portfolio/solim' => 'portfolio#solim'
 
-  get 'portfolio/the-deer-hunter' => 'portfolio#the_deer_hunter'
+  get 'portfolio/smile-restaurant' => 'portfolio#smile'
 
-  get 'portfolio/authentic-weather' => 'portfolio#authentic_weather'
+  get 'portfolio/mahou' => 'portfolio#mahou'
 
-  get 'portfolio/nyt-well' => 'portfolio#nyt_well'
+  get 'portfolio/olympic-gaming' => 'portfolio#olympic_gaming'
+
+  get 'portfolio/bhent' => 'portfolio#bhent'
+
+  get 'portfolio/black-and-white' => 'portfolio#black_and_white'
 
   get 'portfolio' => 'portfolio#index'
 
