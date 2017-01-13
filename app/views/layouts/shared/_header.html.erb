@@ -15,7 +15,7 @@
         <div class="thb-language-switcher" id="thb_language_selector">
 
           
-          <% if cookies[:bhent_locale].include?("en") %>
+          <% if cookies[:bhent_locale] == "en" %>
             <%= link_to t('menu.languages.fr'), change_locale_path(:fr)%>
             <%= link_to t('menu.languages.en'), change_locale_path(:en), class: 'active'  %>
           <%else%>
