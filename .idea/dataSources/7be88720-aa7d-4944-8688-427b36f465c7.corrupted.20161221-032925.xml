@@ -4,7 +4,7 @@
     <schema id="1">
       <visible>1</visible>
     </schema>
-<<<<<<< HEAD
+<!-- <<<<<<< HEAD
     <table id="2" parent="1" name="ar_internal_metadata"/>
     <table id="3" parent="1" name="blogs"/>
     <table id="4" parent="1" name="contacts"/>
@@ -110,7 +110,7 @@
     </column>
     <column id="35" parent="6" name="seq">
       <data-type>(0,-1)|12</data-type>
-=======
+======= -->
     <table id="3" parent="2" name="ar_internal_metadata"/>
     <table id="4" parent="2" name="blogs"/>
     <table id="5" parent="2" name="contacts"/>
@@ -236,7 +236,6 @@
     <column id="36" parent="7" name="seq">
       <Position>1</Position>
       <DataType>(0,-1)|12</DataType>
->>>>>>> origin/JoeBhent
     </column>
   </database-model>
 </dataSource>

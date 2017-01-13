@@ -4,46 +4,35 @@ Rails.application.routes.draw do
 
   get 'blog/article/:id' => 'blog#show'
 
-  get 'portfolio/blacknwhite', to: 'portfolio#black_white'
+
+  get 'portfolio/makkrol' => 'portfolio#makkrol'
+
+  get 'portfolio/le-bois-sainte-anastasie-restaurant' => 'portfolio#le_bois_sainte_anastasie'
+
+  get 'portfolio/la-maison-du-cafe' => 'portfolio#la_maison_du_cafe'
+
+  get 'portfolio/il-et-elle-mode' => 'portfolio#iletelle_mode'
+
   get 'portfolio/olialima' => 'portfolio#olialima'
 
-  get 'portfolio/mahou' => 'portfolio#mahou'
-
-  get 'portfolio/bhent' => 'portfolio#bhent'
-
-  get 'portfolio/olympic-gaming' => 'portfolio#olympic_gaming'
-
-  get 'portfolio/solim' => 'portfolio#solim'
+  get 'portfolio/express-informatique' => 'portfolio#express_informatique'
 
   get 'portfolio/bambou-lounge' => 'portfolio#bambou_lounge'
 
   get 'portfolio/lilac-travel' => 'portfolio#lilac_travel'
 
-  get 'portfolio/smile-restaurant' => 'portfolio#smile_restaurant'
+  get 'portfolio/solim' => 'portfolio#solim'
 
-  get 'portfolio/forpackad'
+  get 'portfolio/smile-restaurant' => 'portfolio#smile'
 
-  get 'portfolio/the-deer-hunter'
+  get 'portfolio/mahou' => 'portfolio#mahou'
 
-  get 'portfolio/authentic-weather'
+  get 'portfolio/olympic-gaming' => 'portfolio#olympic_gaming'
 
-  get 'portfolio/nyt-well'
+  get 'portfolio/bhent' => 'portfolio#bhent'
 
-  get '/portfolio/wrist-watch'
+  get 'portfolio/black-and-white' => 'portfolio#black_and_white'
 
-  get '/portfolio/recipes'
-
-  get '/portfolio/soul-plasticity'
-
-  get '/portfolio/five-dime'
-
-  get '/portfolio/the-little-fox'
-
-  get '/portfolio/paloma-rincon'
-
-  get '/portfolio/broacay-planet'
-
-  get '/portfolio/duerme-pueblo'
 
   get 'portfolio' => 'portfolio#index'
 
