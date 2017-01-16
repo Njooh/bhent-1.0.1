@@ -30342,3 +30342,148 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 4379ms (Views: 4339.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-01-16 15:13:14 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (134.2ms)
+  Rendered home/index.html.erb within layouts/application (191.8ms)
+  Rendered layouts/shared/_header.html.erb (26.9ms)
+  Rendered layouts/shared/_footer.html.erb (5.7ms)
+Completed 200 OK in 2323ms (Views: 2295.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 15:39:52 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (26.9ms)
+  Rendered home/index.html.erb within layouts/application (65.5ms)
+  Rendered layouts/shared/_header.html.erb (34.5ms)
+  Rendered layouts/shared/_footer.html.erb (5.3ms)
+Completed 200 OK in 542ms (Views: 519.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 15:50:41 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (8.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (1700.8ms)
+  Rendered home/index.html.erb within layouts/application (2769.2ms)
+  Rendered layouts/shared/_header.html.erb (8.5ms)
+  Rendered layouts/shared/_footer.html.erb (2.7ms)
+Completed 500 Internal Server Error in 3329ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( app_min.js )` to `config/initializers/assets.rb` and restart your server):
+    166:       /* ]]> */
+    167:     </script>
+    168:    <!-- <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/themes/werkstatt-wp/assets/js/app.min.js?ver=1.4'></script> -->
+    169:    <%= javascript_include_tag 'app_min.js' %>
+    170:    <%= javascript_include_tag 'bhent_embed.js' %>
+    171:    <%= javascript_include_tag 'bhent_js_composer.js' %>
+    172:   
+  
+app/views/layouts/application.html.erb:169:in `_app_views_layouts_application_html_erb__1190514693325892825_70343586256380'
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (123.7ms)
+Started GET "/" for ::1 at 2017-01-16 15:51:55 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (57.8ms)
+  Rendered home/index.html.erb within layouts/application (91.8ms)
+  Rendered layouts/shared/_header.html.erb (34.8ms)
+  Rendered layouts/shared/_footer.html.erb (6.1ms)
+Completed 500 Internal Server Error in 1043ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( app_min.js )` to `config/initializers/assets.rb` and restart your server):
+    166:       /* ]]> */
+    167:     </script>
+    168:    <!-- <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/themes/werkstatt-wp/assets/js/app.min.js?ver=1.4'></script> -->
+    169:    <%= asset_path('app_min.js') %>
+    170:    <%= asset_path('bhent_embed.js') %>
+    171:    <%= asset_path('bhent_js_composer.js') %>
+    172:   
+  
+app/views/layouts/application.html.erb:169:in `_app_views_layouts_application_html_erb__1190514693325892825_70343662489880'
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (82.6ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (178.7ms)
+Started GET "/" for ::1 at 2017-01-16 15:52:13 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (21.4ms)
+  Rendered home/index.html.erb within layouts/application (49.7ms)
+  Rendered layouts/shared/_header.html.erb (23.7ms)
+  Rendered layouts/shared/_footer.html.erb (3.6ms)
+Completed 200 OK in 283ms (Views: 266.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 17:01:09 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (22.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (2824.6ms)
+  Rendered home/index.html.erb within layouts/application (4743.0ms)
+  Rendered layouts/shared/_header.html.erb (15.2ms)
+  Rendered layouts/shared/_footer.html.erb (7.3ms)
+Completed 500 Internal Server Error in 5739ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( app_min.js )` to `config/initializers/assets.rb` and restart your server):
+    166:       /* ]]> */
+    167:     </script>
+    168:    <!-- <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/themes/werkstatt-wp/assets/js/app.min.js?ver=1.4'></script> -->
+    169:    <%= asset_path('app_min.js') %>
+    170:    <%= asset_path('bhent_embed.js') %>
+    171:    <%= asset_path('bhent_js_composer.js') %>
+    172:   
+  
+app/views/layouts/application.html.erb:169:in `_app_views_layouts_application_html_erb__431242381130752433_70094993987540'
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (852.0ms)
+Started GET "/" for ::1 at 2017-01-16 17:03:10 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (67.9ms)
+  Rendered home/index.html.erb within layouts/application (95.9ms)
+  Rendered layouts/shared/_header.html.erb (47.3ms)
+  Rendered layouts/shared/_footer.html.erb (4.9ms)
+Completed 200 OK in 533ms (Views: 500.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio/olialima" for ::1 at 2017-01-16 17:03:40 +0100
+Processing by PortfolioController#olialima as HTML
+  Rendering portfolio/olialima.html.erb within layouts/application
+  Rendered portfolio/shared/_header_porfolio.html.erb (103.0ms)
+  Rendered portfolio/shared/_view_all.html.erb (0.7ms)
+  Rendered portfolio/shared/_share_portfolio.html.erb (0.9ms)
+  Rendered portfolio/shared/_back.html.erb (0.9ms)
+  Rendered portfolio/olialima.html.erb within layouts/application (217.7ms)
+  Rendered layouts/shared/_header.html.erb (113.2ms)
+  Rendered layouts/shared/_footer.html.erb (34.3ms)
+Completed 200 OK in 1116ms (Views: 1053.1ms | ActiveRecord: 0.0ms)
+
+
