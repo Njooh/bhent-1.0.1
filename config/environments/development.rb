@@ -46,6 +46,8 @@ Rails.application.configure do
   config.assets.quiet = true
 
 config.assets.precompile += %w( app_min.js )
+config.assets.precompile += %w( bhent_embed.js )
+config.assets.precompile += %w( bhent_js_comppser.js )
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
