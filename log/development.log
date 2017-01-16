@@ -30487,3 +30487,47 @@ Processing by PortfolioController#olialima as HTML
 Completed 200 OK in 1116ms (Views: 1053.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/portfolio/olialima" for ::1 at 2017-01-16 17:28:42 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (10.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PortfolioController#olialima as HTML
+  Rendering portfolio/olialima.html.erb within layouts/application
+  Rendered portfolio/shared/_header_porfolio.html.erb (11972.1ms)
+  Rendered portfolio/shared/_view_all.html.erb (0.9ms)
+  Rendered portfolio/shared/_share_portfolio.html.erb (0.6ms)
+  Rendered portfolio/shared/_back.html.erb (0.6ms)
+  Rendered portfolio/olialima.html.erb within layouts/application (12079.5ms)
+  Rendered layouts/shared/_header.html.erb (33.8ms)
+  Rendered layouts/shared/_footer.html.erb (4.0ms)
+Completed 200 OK in 13785ms (Views: 13657.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 17:29:08 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (129.0ms)
+  Rendered home/index.html.erb within layouts/application (177.6ms)
+  Rendered layouts/shared/_header.html.erb (37.1ms)
+  Rendered layouts/shared/_footer.html.erb (28.9ms)
+Completed 200 OK in 547ms (Views: 499.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 17:33:59 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (62.8ms)
+  Rendered home/index.html.erb within layouts/application (89.6ms)
+  Rendered layouts/shared/_header.html.erb (70.7ms)
+  Rendered layouts/shared/_footer.html.erb (7.1ms)
+Completed 200 OK in 681ms (Views: 658.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 17:40:29 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (62.4ms)
+  Rendered home/index.html.erb within layouts/application (94.7ms)
+  Rendered layouts/shared/_header.html.erb (58.9ms)
+  Rendered layouts/shared/_footer.html.erb (13.2ms)
+Completed 200 OK in 624ms (Views: 597.5ms | ActiveRecord: 0.0ms)
+
+
