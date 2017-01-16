@@ -6,7 +6,11 @@ Rails.application.routes.draw do
 
   get 'portfolio/makkrol' => 'portfolio#makkrol'
 
-  get 'portfolio/le-bois-sainte-anastasie-restaurant' => 'portfolio#le_bois_sainte_anastasie'
+  get 'portfolio/bobolo' => 'portfolio#bobolo'
+
+  get 'portfolio/nao' => 'portfolio#nao'
+
+  get 'portfolio/le-bois-sainte-anastasie' => 'portfolio#le_bois_sainte_anastasie'
 
   get 'portfolio/la-maison-du-cafe' => 'portfolio#la_maison_du_cafe'
 
@@ -35,6 +39,16 @@ Rails.application.routes.draw do
   get 'portfolio' => 'portfolio#index'
 
   get 'about-us-agency' => 'home#about_us'
+
+  get 'expertise' => 'home#expertise'
+
+  get 'branding-design' => 'home#branding_design'
+
+  get 'websites-digital' => 'home#websites_digital'
+
+  get 'marketing-advertising' => 'home#marketing_advertising'
+
+  get 'print-packaging' => 'home#print_packaging'
 
   root 'home#index'
 

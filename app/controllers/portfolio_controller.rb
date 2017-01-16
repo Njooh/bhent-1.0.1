@@ -21,6 +21,12 @@ class PortfolioController < ApplicationController
   def olialima
   end
 
+  def nao
+  end
+
+  def bobolo
+  end
+
   def makkrol
   end
 

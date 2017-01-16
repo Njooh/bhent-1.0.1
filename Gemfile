@@ -29,6 +29,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'paperclip', '~> 5.1'
 gem 'rails-i18n' # used for translation
 
+# Favicon
+gem 'rails_real_favicon', '~> 0.0.7'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

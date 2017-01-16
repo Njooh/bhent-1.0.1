@@ -49,6 +49,40 @@ h1.title-header {
   font-size: 34px;
 }
 
+// Expertise
+.branding{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_branding.jpg');
+}
+.design{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_design.jpg');
+}
+.websites{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_websites.jpg');
+}
+.digital{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_digital.jpg');
+}
+.marketing{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_marketing.jpg');
+}
+.advertising{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_advertising.jpg');
+}
+.print{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_print.jpg');
+}
+.packaging{
+  background-color: rgba(255, 255, 255, 1.0);
+  background-image: image_url('key_visual_packaging.jpg');
+}
+
 // Portfolio
 .thb-portfolio aside{
   text-align: center;
@@ -56,39 +90,45 @@ h1.title-header {
 }
 
 .black-white{
-  background-image: image_url('11950252_1001471116542907_5787545759547324377_o.jpg');
+  background-image: image_url('key_visual_black-and-white.jpg');
 }
 .olympic-gaming{
-  background-image: image_url('10404211_564666183680168_2752545429282497705_n.jpg');
+  background-image: image_url('key_visual_olympic-gaming.jpg');
 }
 .smile{
-  background-image: image_url('smile.jpg');
+  background-image: image_url('key_visual_smile.jpg');
 }
 .bhent{
-  background-image: image_url('chicane_brand_7.jpg');
+  background-image: image_url('key_visual_bhent.jpg');
 }
 .olialima{
   background-image: image_url('olialima.jpg');
+}
+.bobolo{
+  background-image: image_url('key_visual_bobolo.jpg');
+}
+.nao{
+  background-image: image_url('key_visual_nao.jpg');
 }
 .solim{
   background-image: image_url('solim.jpg');
 }
 .mahou{
-  background-image: image_url('mahou.jpg');
+  background-image: image_url('key_visual_mahou.jpg');
 }
 .lilac{
-  background-image: image_url('lilac-travel.jpg');
+  background-image: image_url('key_visual_lilac-travel.jpg');
 }
 .bambou-lounge{
-  background-image: image_url('bambou.jpg');
+  background-image: image_url('key_visual_bambou-lounge.jpg');
 }
 .iletelle-mode{
   background-image: image_url('Parce-que-sa-vision-de-la-mode-c-est-un-club-pas-un-vetement.jpg');
 }
 .la-maison-du-cafe{
-  background-image: image_url('la-maison.jpg');
+  background-image: image_url('key_visual_mdc.jpg');
 }
-.le-bois-saint-anastasie{
+.le-bois-sainte-anastasie{
   background-image: image_url('bois-sainte-anastasie.jpg');
 }
 .express-informatique{
@@ -96,4 +136,9 @@ h1.title-header {
 }
 .makkrol{
   background-image: image_url('CYBER-SECURITY-2.jpg');
+}
+
+.synopsis{
+  padding-top: 40px;
+  background-color: rgba(232, 232, 232, 0.2);
 }

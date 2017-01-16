@@ -15,7 +15,7 @@
         <div class="thb-language-switcher" id="thb_language_selector">
 
           
-          <% if cookies[:bhent_locale].include?("en") %>
+          <% if cookies[:bhent_locale] == "en" %>
             <%= link_to t('menu.languages.fr'), change_locale_path(:fr)%>
             <%= link_to t('menu.languages.en'), change_locale_path(:en), class: 'active'  %>
           <%else%>
@@ -37,6 +37,13 @@
             <div class="link_container">
               <div class="link_inner">
                 <%= link_to t('menu.item.portfolio'), portfolio_path, :data => {:content => "Portfolio", :menubg => image_path('portfolio.jpg')} %>
+              </div>
+            </div>
+          </li>
+          <li id="menu-item-300" class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-300">
+            <div class="link_container">
+              <div class="link_inner">
+                <%= link_to t('menu.item.expertise'), expertise_path, :data => {:content => "Expertise", :menubg => image_path('expertise.jpg')} %>
               </div>
             </div>
           </li>
