@@ -137,10 +137,10 @@
     <!-- End Import head-->
 
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+
   </head>
 
   <body class="home page page-id-282 page-template-default snap_rows_ thb_row_pagination_off dark-title disable_header_fill-off mm-link-animation-bg-fill color-changing-header-off footer-shadow-light thb-borders-off overflow-off wpb-js-composer js-comp-ver-4.12 vc_responsive">
@@ -165,8 +165,10 @@
     
       /* ]]> */
     </script>
-    <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/themes/werkstatt-wp/assets/js/app.min.js?ver=1.4'></script>
-    <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
-    <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=4.12'></script>
+   <!-- <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/themes/werkstatt-wp/assets/js/app.min.js?ver=1.4'></script> -->
+   <%= javascript_include_tag 'app_min.js' %>
+  
+    <!-- <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script> -->
+    <!-- <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=4.12'></script> -->
   </body>
 </html>
