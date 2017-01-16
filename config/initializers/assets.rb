@@ -11,4 +11,4 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.precompile += %w( search.js )
 # Rails.application.config.assets.precompile += %w( bhent_js_composer.js )
 # Rails.application.config.assets.precompile += %w( bhent_embed.js )
-# Rails.application.config.assets.precompile += %w( app_min.js )
+ Rails.application.config.assets.precompile += %w( app_min.js )

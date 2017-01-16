@@ -30531,3 +30531,342 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 624ms (Views: 597.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-01-16 17:55:30 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (228.5ms)
+  Rendered home/index.html.erb within layouts/application (264.3ms)
+  Rendered layouts/shared/_header.html.erb (40.5ms)
+  Rendered layouts/shared/_footer.html.erb (14.6ms)
+Completed 200 OK in 2434ms (Views: 2398.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 17:55:44 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (45.1ms)
+  Rendered home/index.html.erb within layouts/application (67.0ms)
+  Rendered layouts/shared/_header.html.erb (16.7ms)
+  Rendered layouts/shared/_footer.html.erb (6.4ms)
+Completed 200 OK in 305ms (Views: 267.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 17:57:13 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (76.1ms)
+  Rendered home/index.html.erb within layouts/application (112.7ms)
+  Rendered layouts/shared/_header.html.erb (125.4ms)
+  Rendered layouts/shared/_footer.html.erb (16.5ms)
+Completed 200 OK in 605ms (Views: 578.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 17:57:29 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (52.1ms)
+  Rendered home/index.html.erb within layouts/application (99.0ms)
+  Rendered layouts/shared/_header.html.erb (46.3ms)
+  Rendered layouts/shared/_footer.html.erb (16.6ms)
+Completed 200 OK in 518ms (Views: 489.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 17:57:42 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (114.2ms)
+  Rendered home/index.html.erb within layouts/application (189.8ms)
+  Rendered layouts/shared/_header.html.erb (78.6ms)
+  Rendered layouts/shared/_footer.html.erb (6.3ms)
+Completed 200 OK in 524ms (Views: 501.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 17:58:39 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (57.6ms)
+  Rendered home/index.html.erb within layouts/application (216.4ms)
+  Rendered layouts/shared/_header.html.erb (176.4ms)
+  Rendered layouts/shared/_footer.html.erb (16.4ms)
+Completed 200 OK in 794ms (Views: 756.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 17:59:56 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (64.0ms)
+  Rendered home/index.html.erb within layouts/application (105.1ms)
+  Rendered layouts/shared/_header.html.erb (79.7ms)
+  Rendered layouts/shared/_footer.html.erb (9.7ms)
+Completed 200 OK in 669ms (Views: 628.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 18:00:15 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (49.8ms)
+  Rendered home/index.html.erb within layouts/application (115.5ms)
+  Rendered layouts/shared/_header.html.erb (99.6ms)
+  Rendered layouts/shared/_footer.html.erb (6.1ms)
+Completed 200 OK in 736ms (Views: 690.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 18:16:14 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (67.0ms)
+  Rendered home/index.html.erb within layouts/application (104.5ms)
+  Rendered layouts/shared/_header.html.erb (68.5ms)
+  Rendered layouts/shared/_footer.html.erb (8.7ms)
+Completed 200 OK in 893ms (Views: 860.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 18:18:01 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (148.0ms)
+  Rendered home/index.html.erb within layouts/application (228.6ms)
+  Rendered layouts/shared/_header.html.erb (70.5ms)
+  Rendered layouts/shared/_footer.html.erb (7.5ms)
+Completed 200 OK in 788ms (Views: 758.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 18:21:31 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (104.4ms)
+  Rendered home/index.html.erb within layouts/application (162.4ms)
+  Rendered layouts/shared/_header.html.erb (68.0ms)
+  Rendered layouts/shared/_footer.html.erb (9.0ms)
+Completed 200 OK in 594ms (Views: 561.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 18:21:59 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (37.4ms)
+  Rendered home/index.html.erb within layouts/application (84.1ms)
+  Rendered layouts/shared/_header.html.erb (68.0ms)
+  Rendered layouts/shared/_footer.html.erb (5.0ms)
+Completed 200 OK in 497ms (Views: 446.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 18:22:21 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (36.7ms)
+  Rendered home/index.html.erb within layouts/application (78.8ms)
+  Rendered layouts/shared/_header.html.erb (84.1ms)
+  Rendered layouts/shared/_footer.html.erb (40.0ms)
+Completed 200 OK in 769ms (Views: 734.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 18:26:15 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (59.0ms)
+  Rendered home/index.html.erb within layouts/application (100.3ms)
+  Rendered layouts/shared/_header.html.erb (291.6ms)
+  Rendered layouts/shared/_footer.html.erb (18.2ms)
+Completed 200 OK in 1143ms (Views: 1113.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-16 18:27:08 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (89.9ms)
+  Rendered home/index.html.erb within layouts/application (123.9ms)
+  Rendered layouts/shared/_header.html.erb (39.6ms)
+  Rendered layouts/shared/_footer.html.erb (5.6ms)
+Completed 200 OK in 918ms (Views: 890.1ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/app_min.js"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/" for ::1 at 2017-01-16 18:27:46 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (58.5ms)
+  Rendered home/index.html.erb within layouts/application (95.6ms)
+  Rendered layouts/shared/_header.html.erb (149.3ms)
+  Rendered layouts/shared/_footer.html.erb (138.3ms)
+Completed 200 OK in 1624ms (Views: 1589.9ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/javascripts/app_min.js"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/" for ::1 at 2017-01-16 18:30:07 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (59.9ms)
+  Rendered home/index.html.erb within layouts/application (94.3ms)
+  Rendered layouts/shared/_header.html.erb (39.5ms)
+  Rendered layouts/shared/_footer.html.erb (15.6ms)
+Completed 500 Internal Server Error in 1814ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( app_min.js )` to `config/initializers/assets.rb` and restart your server):
+    173:       
+    174:    </script> -->
+    175:    
+    176:  <%=javascript_include_tag 'app_min.js' %>
+    177:   
+    178:     <!-- <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script> -->
+    179:     <!-- <script type='text/javascript' src='http://mrf0q11hs9f5smjcwivxd3qm.wpengine.netdna-cdn.com/werkstatt-agency-simple/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=4.12'></script> -->
+  
+app/views/layouts/application.html.erb:176:in `_app_views_layouts_application_html_erb__3053205823670266589_70247398636540'
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.1ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (45.7ms)
+  Rendering /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Dev-Bhent.Ltd/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (264.4ms)
+Started GET "/" for 127.0.0.1 at 2017-01-16 18:34:52 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (18.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (5899.7ms)
+  Rendered home/index.html.erb within layouts/application (8637.6ms)
+  Rendered layouts/shared/_header.html.erb (35.5ms)
+  Rendered layouts/shared/_footer.html.erb (3.7ms)
+Completed 200 OK in 9500ms (Views: 9461.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-16 18:43:10 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (64.5ms)
+  Rendered home/index.html.erb within layouts/application (103.8ms)
+  Rendered layouts/shared/_header.html.erb (49.9ms)
+  Rendered layouts/shared/_footer.html.erb (5.2ms)
+Completed 200 OK in 706ms (Views: 679.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-16 18:43:35 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (34.9ms)
+  Rendered home/index.html.erb within layouts/application (68.1ms)
+  Rendered layouts/shared/_header.html.erb (39.3ms)
+  Rendered layouts/shared/_footer.html.erb (27.9ms)
+Completed 200 OK in 309ms (Views: 280.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-16 18:43:36 +0100
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (7.8ms)
+  Rendered home/index.html.erb within layouts/application (48.5ms)
+  Rendered layouts/shared/_header.html.erb (7.8ms)
+  Rendered layouts/shared/_footer.html.erb (3.2ms)
+Completed 200 OK in 431ms (Views: 370.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-16 18:43:49 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (79.4ms)
+  Rendered home/index.html.erb within layouts/application (117.1ms)
+  Rendered layouts/shared/_header.html.erb (54.6ms)
+  Rendered layouts/shared/_footer.html.erb (5.7ms)
+Completed 200 OK in 696ms (Views: 648.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-16 18:43:58 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (19.9ms)
+  Rendered home/index.html.erb within layouts/application (55.1ms)
+  Rendered layouts/shared/_header.html.erb (45.6ms)
+  Rendered layouts/shared/_footer.html.erb (7.3ms)
+Completed 200 OK in 208ms (Views: 205.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-16 18:44:23 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (64.5ms)
+  Rendered home/index.html.erb within layouts/application (117.8ms)
+  Rendered layouts/shared/_header.html.erb (91.9ms)
+  Rendered layouts/shared/_footer.html.erb (9.1ms)
+Completed 200 OK in 850ms (Views: 815.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-01-16 18:44:34 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/shared/_logo_header_menu.html.erb (31.4ms)
+  Rendered home/index.html.erb within layouts/application (76.4ms)
+  Rendered layouts/shared/_header.html.erb (49.0ms)
+  Rendered layouts/shared/_footer.html.erb (131.0ms)
+Completed 200 OK in 543ms (Views: 503.9ms | ActiveRecord: 0.0ms)
+
+
